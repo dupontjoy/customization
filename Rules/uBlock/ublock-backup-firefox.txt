@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1581840630319,
+  "timeStamp": 1582072014762,
   "version": "1.24.4",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -13,7 +13,7 @@
     "externalLists": "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/CingList-uBlock.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://tools.yiclear.com/ChinaList2.0.txt",
     "firewallPaneMinimized": true,
     "hyperlinkAuditingDisabled": true,
-    "ignoreGenericCosmeticFilters": true,
+    "ignoreGenericCosmeticFilters": false,
     "largeMediaSize": 50,
     "parseAllABPHideFilters": true,
     "prefetchingDisabled": true,
@@ -24,28 +24,14 @@
   },
   "selectedFilterLists": [
     "user-filters",
-    "ublock-filters",
-    "ublock-badware",
-    "ublock-privacy",
-    "ublock-abuse",
-    "ublock-unbreak",
     "awrl-0",
-    "adguard-generic",
-    "adguard-mobile",
     "easylist",
-    "adguard-spyware",
-    "easyprivacy",
-    "adguard-annoyance",
-    "adguard-social",
-    "fanboy-thirdparty_social",
-    "fanboy-cookiemonster",
-    "ublock-annoyances",
     "CHN-1",
     "CHN-0",
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
+    "https://tools.yiclear.com/ChinaList2.0.txt",
     "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/CingList-uBlock.txt",
-    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "https://tools.yiclear.com/ChinaList2.0.txt"
+    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
