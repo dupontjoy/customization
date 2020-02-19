@@ -105,9 +105,6 @@ pornhub.com##.alpha.sniperModeEngaged
 tianya.cn###js-bc-shang
 tianya.cn##.scroll-btn
 
-! Youtube
-youtube.com###contentWrapper > .ytd-popup-container.style-scope
-
 ! 360
 yunpan.360.cn##.redpacket
 
