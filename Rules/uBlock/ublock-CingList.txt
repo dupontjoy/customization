@@ -9,12 +9,12 @@
 !-------------------------------------------------------------------------------------!
 
 ! 杂项
-@@*/vmind.qqvideo.tc.qq.com/$object-subrequest
-@@||sinaimg.cn^$domain=acg18.us
-@@||t7z.cupid.iqiyi.com/$domain=acfun.tudou.com|acfun.tv
-@@|http://v.aty.sohu.com/v$object-subrequest
-@@||atm.youku.com/v$object-subrequest
-||toushibao.com/
+! @@*/vmind.qqvideo.tc.qq.com/$object-subrequest
+! @@||sinaimg.cn^$domain=acg18.us
+! @@||t7z.cupid.iqiyi.com/$domain=acfun.tudou.com|acfun.tv
+! @@|http://v.aty.sohu.com/v$object-subrequest
+! @@||atm.youku.com/v$object-subrequest
+! ||toushibao.com/
 
 ! dilili
 dililitv.com##.widget_ads.widget
