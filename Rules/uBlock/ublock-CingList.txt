@@ -50,6 +50,7 @@ cnbeta.com##.mask-box
 cnbeta.com##.mask-layer
 cnbeta.com###CbADsArticle > .adsbygoogle
 cnbeta.com##DIV[style="display:block !important;padding:10px;margin:0 auto;text-align:center;max-width:980px;overflow:hidden"]
+cnbeta.com##DIV[style="display:block!important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 
 
 ! CNN
