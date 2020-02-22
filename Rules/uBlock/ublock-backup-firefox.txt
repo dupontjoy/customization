@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1582072238487,
+  "timeStamp": 1582339828419,
   "version": "1.24.4",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://tools.yiclear.com/ChinaList2.0.txt",
+    "externalLists": "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "firewallPaneMinimized": true,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": false,
@@ -29,9 +29,8 @@
     "CHN-1",
     "CHN-0",
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
-    "https://tools.yiclear.com/ChinaList2.0.txt",
-    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt"
+    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt",
+    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
