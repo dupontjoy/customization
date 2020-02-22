@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Title:        Cing 悬浮及色情图片过滤规则
-! Description:  過濾國內主流網站 悬浮廣告 及 色情圖片（主流網站都那麼多色情圖片，太不利於青少年的身心健康!）最先是EHH過濾，慢慢就集合了幾百條規則了，改用訂閱方式，方便不同机器之間的同步。
+! Title:        ublock-CingList
+! Description:  自用过滤规则。
 ! Author:       Cing
 ! License:      Creative Commons BY-NC-SA
 ! Version:      2020
