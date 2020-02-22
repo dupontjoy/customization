@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1582339828419,
+  "timeStamp": 1582359913657,
   "version": "1.24.4",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -29,8 +29,8 @@
     "CHN-1",
     "CHN-0",
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
-    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt",
-    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
+    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
