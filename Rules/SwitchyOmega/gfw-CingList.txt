@@ -70,7 +70,6 @@
 ||ledlenserusa.com
 ||fasttechcdn.com
 ||github.io
-||github.com
 ||github*.com
 ||wallhaven.cc
 ||statista.com
@@ -87,8 +86,7 @@
 ||barnesandnoble.com
 ||bing.com
 ||bluedio.com
-||mozilla.org
-||mozilla.net
+||mozilla*
 ||cdn.pocket-lint.com
 ||economist.com
 ||chinavasion.com
