@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.4.0",
-  "when": 1582359933392,
+  "when": 1582772618434,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -26,8 +26,12 @@
     "popupScopeLevel": "domain",
     "processHyperlinkAuditing": true,
     "selectedHostsFiles": [
+      "dpollock-0",
+      "hphosts",
       "malware-0",
-      "malware-1"
+      "malware-1",
+      "mvps-0",
+      "plowe-0"
     ],
     "selectedRecipeFiles": [],
     "userHosts": {
@@ -177,6 +181,7 @@
     "* dwahd.top * allow",
     "* dybhn.com * allow",
     "* feifanbo.cc * allow",
+    "* feifei-kuyun.com * allow",
     "* fluidplayer.com * allow",
     "* fonts.googleapis.com * allow",
     "* gapis.geekzu.org * allow",
@@ -199,6 +204,7 @@
     "* haima-zuida.com * allow",
     "* haku88.com * allow",
     "* haku99.com * allow",
+    "* haozuida.com * allow",
     "* hdslb.com * allow",
     "* huazuida.com * allow",
     "* huya.com * allow",
@@ -262,6 +268,7 @@
     "* qingyu-zuida.com * allow",
     "* qiniucdn.com * allow",
     "* qooqlevideo.com * allow",
+    "* qxreader.com * allow",
     "* qy.net * allow",
     "* qzamfz.com * allow",
     "* raw.githubusercontent.com * allow",
@@ -749,6 +756,7 @@
     "kankanwu.com newplayer.lsmmr.com script allow",
     "kanzhun.com kanzhun.com cookie allow",
     "kaola.com mm.bst.126.net script allow",
+    "kaolay.com kaolay.com cookie allow",
     "khanacademy.org kastatic.org * allow",
     "khanacademy.org s3.amazonaws.com script inherit",
     "kindbook.cn kindbook.cn script allow",
@@ -1028,6 +1036,7 @@
     "sxl.cn qnssl.com script allow",
     "sz12333.gov.cn sz12333.gov.cn cookie allow",
     "szsi.gov.cn szsi.gov.cn cookie allow",
+    "t.me telegram.org * allow",
     "t00y.com 400gb.com * allow",
     "t00y.com pipipan.com * allow",
     "tampermonkey.net tampermonkey.freetls.fastly.net * allow",
