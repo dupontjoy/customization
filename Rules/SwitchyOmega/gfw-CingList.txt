@@ -1,11 +1,12 @@
 [Autoproxy 0.3.0]
 ! Title:        gfw自定義名單(autoproxy格式)
 ! Author:       Cing
-! Version:      2019
+! Version:      2020
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
 
+||ghacks.net
 ||myhdjav.net
 ||bestpornbabes.com
 ||uupdump.ml
