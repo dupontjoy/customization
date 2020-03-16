@@ -70,13 +70,13 @@
 ||raindrop.io
 ||ledlenserusa.com
 ||fasttechcdn.com
-||*github*
+||github.com
 ||wallhaven.cc
 ||statista.com
 ||.ft.com
 ||dspncdn.com
 ||designspiration.net
-||*amazon.co*
+||amazon.co*
 ||githubusercontent.com
 ||alcatelonetouch.com
 ||angiefans.com
@@ -86,7 +86,8 @@
 ||barnesandnoble.com
 ||bing.com
 ||bluedio.com
-||*mozilla*
+||mozilla.net
+||mozilla.com
 ||cdn.pocket-lint.com
 ||economist.com
 ||chinavasion.com
