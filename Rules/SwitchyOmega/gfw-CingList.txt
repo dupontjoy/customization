@@ -72,6 +72,7 @@
 ||ledlenserusa.com
 ||fasttechcdn.com
 ||github.com
+||github*.com
 ||wallhaven.cc
 ||statista.com
 .ft.com
