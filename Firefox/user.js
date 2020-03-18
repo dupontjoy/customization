@@ -1,4 +1,4 @@
-//2020.02.02
+//2020.03.18
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -33,13 +33,13 @@ user_pref("font.name.sans-serif.zh-CN", "Arial");//无衬线字体
 user_pref("font.name.monospace.zh-CN", "Arial");//等宽字体
 
 //自带跟踪保护
-user_pref("browser.contentblocking.enabled", false);//总开关：master switch for all content blocking features (includes tracking protection, but excludes tracking annotations)
-user_pref("browser.contentblocking.category", "custom");//类型：自定义保护
-user_pref("privacy.trackingprotection.enabled", false);//to enable TP globally
-user_pref("network.cookie.cookieBehavior", 0);//内容拦截: cookie(否)
-user_pref("privacy.trackingprotection.cryptomining.enabled", false);//跟踪性内容
-user_pref("privacy.trackingprotection.pbmode.enabled", false);//加密货币挖矿程序
-user_pref("privacy.trackingprotection.fingerprinting.enabled", false);//数字指纹跟踪
+//user_pref("browser.contentblocking.enabled", false);//总开关：master switch for all content blocking features (includes tracking protection, but excludes tracking annotations)
+//user_pref("browser.contentblocking.category", "custom");//类型：自定义保护
+//user_pref("privacy.trackingprotection.enabled", false);//to enable TP globally
+//user_pref("network.cookie.cookieBehavior", 0);//内容拦截: cookie(否)
+//user_pref("privacy.trackingprotection.cryptomining.enabled", false);//跟踪性内容
+//user_pref("privacy.trackingprotection.pbmode.enabled", false);//加密货币挖矿程序
+//user_pref("privacy.trackingprotection.fingerprinting.enabled", false);//数字指纹跟踪
 
 
 //*==========标签相关==========*//
@@ -48,6 +48,7 @@ user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
+user_pref("browser.urlbar.update1", false);//关闭Firefox72的urlbar放大功能
 
 
 //*==========下载相关==========*//
@@ -56,13 +57,12 @@ user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在�
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
 
-//*==========网络协议问题==========*//
+//*==========网络相关==========*//
 user_pref("network.security.esni.enabled", true);//加密SNI,让 HTTPS 连接不再暴露SNI域名地址
 user_pref("network.proxy.socks_remote_dns", true);//远程DNS检查
 user_pref("network.trr.mode", 2);//DoH模式: 优先DoH, 常规DNS作备用
 user_pref("network.trr.custom_uri", "https://dns.google/dns-query");//DoH自定义查询地址
 user_pref("network.trr.bootstrapAddress", "8.8.8.8");//DoH IP
-user_pref("browser.cache.offline.enable", false);//取消脱机的高速缓冲数据
 
 
 //画中画
