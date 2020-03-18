@@ -9,7 +9,6 @@
 # Note:
 - OurSticky扩展导致百度网盘离线下载添加BT种子时窗口无法弹出
 - Don't Fuck with my Scrolling脚本会导致某些直播视频无法加载
-- surfingkeys扩展导致firefox72页面不断重载
  *************************************************************************************/
 
 /******************************************************************************************
@@ -59,10 +58,7 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 
 //*==========网络相关==========*//
 user_pref("network.security.esni.enabled", true);//加密SNI,让 HTTPS 连接不再暴露SNI域名地址
-user_pref("network.proxy.socks_remote_dns", true);//远程DNS检查
-user_pref("network.trr.mode", 2);//DoH模式: 优先DoH, 常规DNS作备用
-user_pref("network.trr.custom_uri", "https://dns.google/dns-query");//DoH自定义查询地址
-user_pref("network.trr.bootstrapAddress", "8.8.8.8");//DoH IP
+user_pref("network.IDN_show_punycode", true);//避免钓鱼
 
 
 //画中画
@@ -100,7 +96,6 @@ user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转�
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不弹出"What's New"页面
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
-user_pref("network.IDN_show_punycode", true);//避免钓鱼
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//69以后自动加载 userChrome.ss 和 userContent.css
 user_pref("dom.webcomponents.shadowdom.enabled", true);//脚本"本地 YouTube 下载器"建议开启
 user_pref("extensions.pocket.enabled", false);//自带pocket(禁用,功能太简略,无法离线查看列表)
