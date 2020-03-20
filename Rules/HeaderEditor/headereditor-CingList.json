@@ -191,6 +191,524 @@
 			"action": "redirect",
 			"to": "https://club.kdslife.com/t_$2.html",
 			"group": "CingList"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "domain",
+			"pattern": "music.junyuewl.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "domain",
+			"pattern": "music.fooor.cn",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "cancel",
+			"matchType": "url",
+			"pattern": "https://www.baidu.com/error.html",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "cancel"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "domain",
+			"pattern": "music.sonimei.cn",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "domain",
+			"pattern": "www.769sc.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "domain",
+			"pattern": "music.ifkdy.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://music.zhuolin.wang/",
+			"exclude": "http://music.zhuolin.wang/api.php",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music",
+			"_exclude": {}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "domain",
+			"pattern": "www.gequdaquan.net",
+			"exclude": "http://www.gequdaquan.net/gqss/api.php",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music",
+			"_exclude": {}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "domain",
+			"pattern": "muc.cheshirex.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://music.laod.cn/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "domain",
+			"pattern": "music.catlane.cn",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "prefix",
+			"pattern": "http://www.24kdh.com/MusicPlayer/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://blog.quietguoguo.com/music/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://music.cccyun.cc/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://music.bbbbbb.me/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://music.bingdou.net/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://music.liuzhijin.cn/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://www.socew.cn/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://www.youtap.xin/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://www.6080w.com/music/",
+			"exclude": "http://www.6080w.com/music/api.php",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music",
+			"_exclude": {}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://tool.liumingye.cn/music/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "domain",
+			"pattern": "music.runker.net",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://music.postgraduate.top/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://www.xcbkb.com/music/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://bak.scit028.com/music/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://www.lingchenxi.tech/yinyue/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://music.uixsj.cn/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://www.lxh5068.com/music/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://www.xieqian.vip/music/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://vip.xcsee.cn/music/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://music.wzxb44.com/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://ayy.ayxhk.com/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://tool.yiixue.com/Tools/mk_music/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://music.itmxue.cn/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://musib.itmxue.cn/"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://s.cpman.cn/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://y.youhui.in/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://www.socarchina.com/vipmusic/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://tools.yum6.cn/music/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://gkroot.com/music/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://www.haiwaiyy.com/yinyue/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "http://gequdaquan.net/gqss/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://yinyue.lkxin.cn/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music-simple"
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://music.lkxin.cn/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://music.qugeek.com/page/music"
 		}
 	],
 	"sendHeader": [
@@ -770,16 +1288,338 @@
 		},
 		{
 			"enable": true,
-			"name": "okokbo m3u8播放",
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
-			"pattern": "bobo.okokbo.com",
+			"pattern": "y.gtimg.cn",
 			"exclude": "",
-			"group": "CingList",
+			"group": "未分组",
 			"isFunction": false,
 			"action": {
-				"name": "Access-Control-Allow-Origin",
-				"value": "http://okzyzy.com/"
+				"name": "referer",
+				"value": "http://y.qq.com/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "sinaimg.cn",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://weibo.com/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "sogoucdn.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "dl.stream.qqmusic.qq.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "http://y.qq.com"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "music.126.net",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://music.163.com/m/song"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "singerimg.kugou.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.kugou.com/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "fs.ios.kugou.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.kugou.com/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "pic.xiami.net",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.xiami.com/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "s320.xiami.net",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.xiami.com/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "dmhmusic.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://music.taihe.com/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "prefix",
+			"pattern": "http://music.fooor.cn/api.php",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "http://music.fooor.cn/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "prefix",
+			"pattern": "https://www.jikefan.com/music/api.php",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://blog.quietguoguo.com/music/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "prefix",
+			"pattern": "https://blog.quietguoguo.com/music/api.php",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://blog.quietguoguo.com/music/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "https://cn.bing.com/th",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://cn.bing.com/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "domain",
+			"pattern": "api.fczbl.vip",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://api.fczbl.vip/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "music.qugeek.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "musiccrxversion",
+				"value": "1"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "alicdn.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.aliyun.com"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "cy-pic.kuaizhan.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.kuaizhan.com/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "domain",
+			"pattern": "puui.qpic.cn",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.qiniu.com/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "domain",
+			"pattern": "music.lkxin.cn",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://music.lkxin.cn/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "domain",
+			"pattern": "music.postgraduate.top",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://music.postgraduate.top/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "https://www.xcbkb.com/music/api.php",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://www.xcbkb.com/music/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "prefix",
+			"pattern": "https://bak.scit028.com/music/api.php",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://bak.scit028.com/music/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifySendHeader",
+			"matchType": "domain",
+			"pattern": "music.laod.cn",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://music.laod.cn/"
 			}
 		}
 	],
@@ -810,6 +1650,328 @@
 			"action": {
 				"name": "access-control-allow-origin",
 				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "y.gtimg.cn",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "dl.stream.qqmusic.qq.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "music.126.net",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "singerimg.kugou.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "fs.ios.kugou.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "pic.xiami.net",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "s320.xiami.net",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "dmhmusic.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "fooor.cn",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "www.jikefan.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "blog.quietguoguo.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "https://cn.bing.com/th",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "domain",
+			"pattern": "api.fczbl.vip",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "https://proxy.zme.ink/https://picsum.photos/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "cache-control",
+				"value": "no-cache,must-revalidate"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "https://proxy.zme.ink/https://picsum.photos/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "pragma",
+				"value": "no-cache"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "https://proxy.zme.ink/https://picsum.photos/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "expires",
+				"value": "0"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "https://proxy.zme.ink/https://picsum.photos/",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "date",
+				"value": "0"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "domain",
+			"pattern": "music.laod.cn",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "domain",
+			"pattern": "music.postgraduate.top",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "domain",
+			"pattern": "www.xcbkb.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "bak.scit028.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "滚动到页面最下面点击【保存】按钮 ( music.qugeek.com )",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "domain",
+			"pattern": "music.lkxin.cn",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "okokbo m3u8播放",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "bobo.okokbo.com",
+			"exclude": "",
+			"group": "CingList",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "http://okzyzy.com/"
 			}
 		}
 	]
