@@ -6,6 +6,7 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
 
+||jhu.edu
 ||arcgis.com
 ||stackoverflow.com
 ||bootstrapcdn.com
