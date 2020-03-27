@@ -16,10 +16,10 @@ set dir=D:\Program Files
 
 ::Processlaso特殊处理
 ::删除日志临时文件
-del "%dir%\System Tools\ProcessLassoPortable\prolasso.log.*"  /s /q
+::del "%dir%\System Tools\ProcessLassoPortable\prolasso.log.*"  /s /q
 ::启动程序
-start "" "%dir%\System Tools\ProcessLassoPortable\ProcessGovernor.exe" "/configfolder=%dir%\System Tools\ProcessLassoPortable\config" "/logfolder=%dir%\System Tools\ProcessLassoPortable\config" /min
-start "" "%dir%\System Tools\ProcessLassoPortable\ProcessLasso.exe" "/configfolder=%dir%\System Tools\ProcessLassoPortable\config" "/logfolder=%dir%\System Tools\ProcessLassoPortable\config" /min
+::start "" "%dir%\System Tools\ProcessLassoPortable\ProcessGovernor.exe" "/configfolder=%dir%\System Tools\ProcessLassoPortable\config" "/logfolder=%dir%\System Tools\ProcessLassoPortable\config" /min
+::start "" "%dir%\System Tools\ProcessLassoPortable\ProcessLasso.exe" "/configfolder=%dir%\System Tools\ProcessLassoPortable\config" "/logfolder=%dir%\System Tools\ProcessLassoPortable\config" /min
 
 
 
