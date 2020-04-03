@@ -110,30 +110,6 @@
 		},
 		{
 			"enable": true,
-			"name": "google fonts >> 极客族",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/fonts\\.googleapis\\.com\\/(.*)$",
-			"exclude": "",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://fonts.geekzu.org/$1",
-			"group": "CingList"
-		},
-		{
-			"enable": true,
-			"name": "google ajax >> 极客族",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/ajax\\.googleapis\\.com\\/(.*)$",
-			"exclude": "",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://gapis.geekzu.org/ajax/$1",
-			"group": "CingList"
-		},
-		{
-			"enable": true,
 			"name": "贴吧 域名重定向",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -143,42 +119,6 @@
 			"action": "redirect",
 			"to": "http://tieba.baidu.com/$2",
 			"group": "CingList"
-		},
-		{
-			"enable": true,
-			"name": "google fonts-2 >> 极客族",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/fonts\\.gstatic\\.com\\/(.*)$",
-			"exclude": "",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://fdn.geekzu.org/g-fonts/$1",
-			"group": "CingList"
-		},
-		{
-			"enable": true,
-			"name": "google themes >> 极客族",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/themes\\.googleusercontent\\.com\\/(.*)$",
-			"exclude": "",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://gapis.geekzu.org/g-themes/$1",
-			"group": "CingList"
-		},
-		{
-			"enable": true,
-			"name": "优酷重定向",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/v\\.youku\\.com\\/v_show\\/id_(\\w+?)=*\\.html.*",
-			"exclude": "",
-			"group": "CingList",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "http://player.youku.com/embed/$1"
 		},
 		{
 			"enable": true,
@@ -776,20 +716,6 @@
 			"ruleType": "modifyReceiveHeader",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/.*(ph|bimg|nosdn|ws)\\.(127|126)\\.net.*",
-			"exclude": "",
-			"group": "CingList",
-			"isFunction": false,
-			"action": {
-				"name": "access-control-allow-origin",
-				"value": "*"
-			}
-		},
-		{
-			"enable": true,
-			"name": "允许 M3U8、TS、MP4 等文件跨域",
-			"ruleType": "modifyReceiveHeader",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/.*\\.(m3u8|ts|mp3|mp4|flv)(?=\\?|$)",
 			"exclude": "",
 			"group": "CingList",
 			"isFunction": false,

@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1584177088260,
+  "timeStamp": 1585879384477,
   "version": "1.25.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -10,8 +10,8 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "firewallPaneMinimized": true,
+    "externalLists": "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
+    "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": false,
     "largeMediaSize": 50,
@@ -23,6 +23,7 @@
     "webrtcIPAddressHidden": true
   },
   "selectedFilterLists": [
+    "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
     "user-filters",
     "awrl-0",
     "easylist",
