@@ -8,6 +8,12 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 
+! Youtube
+www.youtube.com###iri-quick-control-pop-up-player
+www.youtube.com###iri-quick-control-screen-shot
+www.youtube.com###iri-quick-control-thumbnail
+
+
 ! dilili
 dililitv.com##.widget_ads.widget
 
