@@ -12,7 +12,7 @@
 www.youtube.com###iri-quick-control-pop-up-player
 www.youtube.com###iri-quick-control-screen-shot
 www.youtube.com###iri-quick-control-thumbnail
-
+www.youtube.com###iri-quick-control-full-browser
 
 ! dilili
 dililitv.com##.widget_ads.widget
