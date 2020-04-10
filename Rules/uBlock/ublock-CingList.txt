@@ -12,6 +12,7 @@
 ||img4.nga.178.com/ngabbs/head/20*.jpg$image
 
 ! Youtube
+www.youtube.com###iri-quick-controls-container
 www.youtube.com###iri-quick-control-pop-up-player
 www.youtube.com###iri-quick-control-screen-shot
 www.youtube.com###iri-quick-control-thumbnail
