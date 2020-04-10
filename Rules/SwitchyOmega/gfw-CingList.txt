@@ -94,8 +94,7 @@
 ||barnesandnoble.com
 ||bing.com
 ||bluedio.com
-||mozilla.net
-||mozilla.com
+||mozilla.*
 ||cdn.pocket-lint.com
 ||economist.com
 ||chinavasion.com
