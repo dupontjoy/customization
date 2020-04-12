@@ -1,4 +1,4 @@
-//2020.03.18
+//2020.04.10
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -59,6 +59,11 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 //*==========网络相关==========*//
 user_pref("network.security.esni.enabled", true);//加密SNI,让 HTTPS 连接不再暴露SNI域名地址
 user_pref("network.IDN_show_punycode", true);//避免钓鱼
+//预加载
+user_pref("network.dns.disablePrefetchFromHTTPS", false);
+user_pref("network.predictor.enable-prefetch", true);
+user_pref("network.preload", true);
+user_pref("network.preload-experimental", true);
 
 
 //画中画
@@ -86,6 +91,7 @@ user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打�
 user_pref("general.warnOnAboutConfig", false);//AboutConfig警告
 user_pref("accessibility.force_disabled", 1); //禁用无障碍环境
 user_pref("datareporting.healthreport.uploadEnabled", false);//关闭安全检测健康中心
+user_pref("default-browser-agent.enabled", false);//关闭安全检测健康中心
 user_pref("datareporting.policy.dataSubmissionEnabled", false); //关闭安全检测健康中心
 user_pref("datareporting.healthreport.service.enabled", false);//禁止遥测往prefs.js写入数据
 user_pref("browser.safebrowsing.enabled", false);//关闭欺诈内容和危险软件防护（谷歌网站黑名单）
@@ -111,7 +117,7 @@ user_pref("browser.sessionstore.interval", 600000);//(单位: ms)限制recovery.
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
 //标签页固定的网站(16个)
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.npr.org/\",\"title\":\"NPR\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.bilibili.com/\",\"title\":\"Bilibili\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.techweb.com.cn/\",\"title\":\"techweb\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://www.36kr.com/\",\"title\":\"36KR\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"},{\"url\":\"http://www.tmtpost.com/\",\"title\":\"钛媒体\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.npr.org/\",\"title\":\"NPR\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.bilibili.com/\",\"title\":\"Bilibili\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.techweb.com.cn/\",\"title\":\"techweb\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://zxwpost.com/\",\"title\":\"志象网\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"},{\"url\":\"http://www.tmtpost.com/\",\"title\":\"钛媒体\"}]");
 user_pref("browser.newtabpage.activity-stream.topSitesRows", 2);//常用网站2行展示
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);//不展示只言片语
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);//不展示集锦
