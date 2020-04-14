@@ -9,9 +9,6 @@
 !-------------------------------------------------------------------------------------!
 
 
-! zhihu
-zhihu.com##.AppHeader-messages.Messages.Popover
-
 ! NGA
 ||img4.nga.178.com/ngabbs/head/20*.jpg$image
 
