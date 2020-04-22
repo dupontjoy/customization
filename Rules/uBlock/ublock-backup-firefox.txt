@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1585879384477,
-  "version": "1.25.2",
+  "timeStamp": 1587537957816,
+  "version": "1.26.2",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
+    "externalLists": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": false,
@@ -23,13 +23,12 @@
     "webrtcIPAddressHidden": true
   },
   "selectedFilterLists": [
-    "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
     "user-filters",
-    "awrl-0",
     "easylist",
     "CHN-1",
     "CHN-0",
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
+    "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt"
   ],
@@ -52,6 +51,7 @@
     "cnameMaxTTL": 120,
     "cnameReplayFullURL": false,
     "cnameUncloak": false,
+    "cnameUncloakProxied": false,
     "consoleLogLevel": "unset",
     "debugScriptlets": false,
     "debugScriptletInjector": false,
