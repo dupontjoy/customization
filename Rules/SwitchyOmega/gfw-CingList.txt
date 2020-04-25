@@ -6,6 +6,7 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
 
+||europa.eu
 ||mobilesentrix.com
 ||trait-tech.com
 ||secureservercdn.net
