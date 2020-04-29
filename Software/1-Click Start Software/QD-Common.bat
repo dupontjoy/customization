@@ -10,6 +10,13 @@
 ::設置程序文件夾位置
 set dir=D:\Program Files
 
+::普通啟動
+start "" "%dir%\RimeIME Portable\weasel\WeaselServer.exe"
+start "" "%dir%\Tencent\QQ\Bin\QQ.exe"
+start "" "%dir%\Tencent\Foxmail\Foxmail.exe" /min
+start "" "%dir%\CingFox\Software\Snipaste\Snipaste.exe"
+start "" "%dir%\Ditto\Ditto.exe"
+
 ::Processlaso特殊处理
 ::删除日志临时文件
 del "%dir%\System Tools\ProcessLassoPortable\prolasso.log.*"  /s /q
@@ -38,13 +45,6 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 ::start "" "%dir%\CingFox\Software\GFW\SS\Shadowsocks.exe"
 ::start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
 start "" "%dir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
-
-::普通啟動
-start "" "%dir%\RimeIME Portable\weasel\WeaselServer.exe"
-start "" "%dir%\Tencent\QQ\Bin\QQ.exe"
-start "" "%dir%\Tencent\Foxmail\Foxmail.exe" /min
-start "" "%dir%\CingFox\Software\Snipaste\Snipaste.exe"
-start "" "%dir%\Ditto\Ditto.exe"
 
 ::等待一段时间
 @echo off
