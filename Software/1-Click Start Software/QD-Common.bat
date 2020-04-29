@@ -7,10 +7,6 @@
 ::%1 start "" mshta vbscript:createobject("shell.application").shellexecute("""%~0""","::",,"runas",1)(window.close)&exit
 ::完
 
-::等待一段时间
-@echo off
-choice /t 10 /d y /n >nul
-
 ::設置程序文件夾位置
 set dir=D:\Program Files
 
@@ -38,11 +34,6 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 ::Listary六代
 ::start "" "%dir%\CingFox\Software\Listary\listary.exe"
 
-
-::等待一段时间
-@echo off
-choice /t 3 /d y /n >nul
-
 ::GFW
 ::start "" "%dir%\CingFox\Software\GFW\SS\Shadowsocks.exe"
 ::start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
@@ -57,7 +48,7 @@ start "" "%dir%\Ditto\Ditto.exe"
 
 ::等待一段时间
 @echo off
-choice /t 10 /d y /n >nul
+choice /t 3 /d y /n >nul
 
 ::延迟启动
 start "" "%dir%\Tencent\WeiyunSync\Bin\weiyunsync.exe" /min
