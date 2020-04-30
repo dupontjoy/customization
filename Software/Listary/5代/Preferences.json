@@ -9,28 +9,6 @@
          "keyword": "",
          "type": "builtin"
       }, {
-         "enabled": true,
-         "guid": "{7971bb91-830f-474b-a976-8bfc9fc001d1}",
-         "hotkey": 0,
-         "keyword": "",
-         "param": "\"{action_path}\"",
-         "path": "C:\\Windows\\Notepad.exe",
-         "run_as_admin": false,
-         "slient": false,
-         "title": "\u7528\u8BB0\u4E8B\u672C\u6253\u5F00",
-         "type": "custom"
-      }, {
-         "enabled": true,
-         "guid": "",
-         "hotkey": 3332,
-         "keyword": "",
-         "param": "/O /T /A /S /L=\"{action_path}\"",
-         "path": "..\\TotalCMD64\\TotalCMD64.exe",
-         "run_as_admin": false,
-         "slient": false,
-         "title": "\u5728TC\u4E2D\u5B9A\u4F4D\u5230\u8BE5\u6587\u4EF6",
-         "type": "custom"
-      }, {
          "command_string": "_action_copy_to_current_folder",
          "enabled": true,
          "guid": "{edf97959-2c24-47ed-bd7b-3dc5e76b7752}",
@@ -102,6 +80,28 @@
          "type": "builtin"
       }, {
          "enabled": false,
+         "guid": "{7971bb91-830f-474b-a976-8bfc9fc001d1}",
+         "hotkey": 0,
+         "keyword": "",
+         "param": "\"{action_path}\"",
+         "path": "C:\\Windows\\Notepad.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "\u7528\u8BB0\u4E8B\u672C\u6253\u5F00",
+         "type": "custom"
+      }, {
+         "enabled": false,
+         "guid": "",
+         "hotkey": 3332,
+         "keyword": "",
+         "param": "/O /T /A /S /L=\"{action_path}\"",
+         "path": "..\\TotalCMD64\\TotalCMD64.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "\u5728TC\u4E2D\u5B9A\u4F4D\u5230\u8BE5\u6587\u4EF6",
+         "type": "custom"
+      }, {
+         "enabled": false,
          "guid": "{06457068-a652-4c0d-9c3c-a4056dde1f67}",
          "hotkey": 0,
          "keyword": "",
@@ -154,7 +154,7 @@
    },
    "check_update": {
       "last_check_local_version": "5.00.2843",
-      "last_check_time": "13222872437917272",
+      "last_check_time": "13232343565366352",
       "version_setting": {
          "remind_later": "0",
          "skip": false,
