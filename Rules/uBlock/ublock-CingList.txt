@@ -18,7 +18,7 @@ youtube.com###iri-quick-control-pop-up-player
 youtube.com###iri-quick-control-screen-shot
 youtube.com###iri-quick-control-thumbnail
 youtube.com###iri-quick-control-full-browser
-!!Youtube本地下载器需要设置项
+! !Youtube本地下载器需要设置项
 @@||www.youtube.com/get_video_info?*=detailpage$xhr,domain=youtube.com
 
 ! dilili
