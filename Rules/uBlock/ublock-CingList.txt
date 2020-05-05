@@ -73,6 +73,8 @@ economist.com##.fe-blogs__top-ad-wrapper-firstload.fe-blogs__top-ad-wrapper
 economist.com##.exit-pop
 economist.com##.ribbon__header
 economist.com##.ribbon__body
+economist.com###AdBillboard
+
 
 ! gearbest
 gearbest.com###email_subscribe
