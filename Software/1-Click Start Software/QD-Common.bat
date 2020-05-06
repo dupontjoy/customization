@@ -42,9 +42,7 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 ::start "" "%dir%\CingFox\Software\Listary\listary.exe"
 
 ::GFW
-::start "" "%dir%\CingFox\Software\GFW\SS\Shadowsocks.exe"
-::start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
-start "" "%dir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
+::start "" "%dir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
 
 ::等待一段时间
 @echo off
