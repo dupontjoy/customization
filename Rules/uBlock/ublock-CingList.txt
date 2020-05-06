@@ -11,6 +11,9 @@
 
 ! NGA
 ||img4.nga.178.com/ngabbs/head/20*.jpg$image
+||ccq.178.com/iframe/index.html$subdocument
+bbs.nga.cn###toppedtopic > span
+||*.178.com/*$subdocument
 
 ! Youtube
 youtube.com###iri-quick-controls-container
