@@ -79,7 +79,7 @@
          "keyword": "",
          "type": "builtin"
       }, {
-         "enabled": false,
+         "enabled": true,
          "guid": "{7971bb91-830f-474b-a976-8bfc9fc001d1}",
          "hotkey": 0,
          "keyword": "",
