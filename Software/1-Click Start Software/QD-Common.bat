@@ -16,7 +16,7 @@ start "" "%dir%\Tencent\QQ\Bin\QQ.exe"
 start "" "%dir%\Tencent\Foxmail\Foxmail.exe" /min
 start "" "%dir%\CingFox\Software\Snipaste\Snipaste.exe"
 start "" "%dir%\Ditto\Ditto.exe"
-start "" "%dir%\System Tools\Auslogics BoostSpeed\AusLogicsBoostSpeedPortable.exe"
+
 
 ::Processlaso特殊处理
 ::删除日志临时文件
