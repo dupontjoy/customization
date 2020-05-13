@@ -8,7 +8,6 @@ set dir2=C:\Program Files (x86)
 
 ::公司用軟件
 start "" "%dir%\Tencent\WeChat\WeChat.exe"
-start "" "%dir%\System Tools\Auslogics BoostSpeed\AusLogicsBoostSpeedPortable.exe"
 
 ::完成後退出
 exit
