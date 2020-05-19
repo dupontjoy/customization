@@ -82,8 +82,7 @@
 ||raindrop.io
 ||ledlenserusa.com
 ||fasttechcdn.com
-||github.com
-||github*.com
+||github*
 ||wallhaven.cc
 ||statista.com
 .ft.com
