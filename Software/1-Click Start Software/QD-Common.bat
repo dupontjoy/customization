@@ -36,6 +36,13 @@ del "%dir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
 ::等待一段时间
 @echo off
 choice /t 3 /d y /n >nul
+
+::再运行一次
+::初始化Listary磁盘扫描,日志(解决5.x版U盘弹出后还有文件记录)
+del "%dir%\CingFox\Software\Listary Pro\UserData\DiskSearch.db"  /s /q
+del "%dir%\CingFox\Software\Listary Pro\UserData\listary_log.log"  /s /q
+del "%dir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
+
 ::启动程序
 start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 
