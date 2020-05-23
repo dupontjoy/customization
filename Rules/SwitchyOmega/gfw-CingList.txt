@@ -6,6 +6,7 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
 
+||worldmeters.info
 ||npr.org
 ||googlevideo.com
 ||europa.eu
