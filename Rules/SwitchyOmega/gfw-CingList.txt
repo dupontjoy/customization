@@ -77,7 +77,7 @@
 ||alexa.com
 ||peterdavehello.org
 ||keezmovies.com
-||porn.com
+||*porn.com
 ||pornhub.com
 ||pornhub*.com
 ||artstation.com
