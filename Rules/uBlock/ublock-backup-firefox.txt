@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1590578954873,
-  "version": "1.27.5b3",
+  "timeStamp": 1590738910078,
+  "version": "1.27.11b0",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -74,7 +74,6 @@
     "popupFontSize": "unset",
     "popupPanelDisabledSections": 0,
     "popupPanelLockedSections": 0,
-    "popupPanelGodMode": false,
     "popupPanelHeightMode": 0,
     "requestJournalProcessPeriod": 1000,
     "selfieAfter": 3,
