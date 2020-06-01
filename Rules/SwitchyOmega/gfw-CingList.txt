@@ -6,6 +6,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
 
+||datatables.net
+||highcharts.com
 ||worldometers.info
 ||npr.org
 ||googlevideo.com
