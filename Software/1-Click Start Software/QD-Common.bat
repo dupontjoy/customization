@@ -15,7 +15,7 @@ start "" "%dir%\RimeIME Portable\weasel\WeaselServer.exe"
 start "" "%dir%\Tencent\QQ\Bin\QQ.exe"
 start "" "%dir%\Tencent\Foxmail\Foxmail.exe" /min
 start "" "%dir%\CingFox\Software\Snipaste\Snipaste.exe"
-start "" "%dir%\Ditto\Ditto.exe"
+start "" "%dir%\CingFox\Software\Ditto\Ditto.exe"
 
 
 ::Processlaso特殊处理
