@@ -6,6 +6,7 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
 
+||7-zip.org
 ||notion.so
 ||datatables.net
 ||highcharts.com
