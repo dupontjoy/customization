@@ -139,6 +139,7 @@ zuidazy4.net##.right
 zuidazy5.net##.right
 wolongzy.net##.notice
 wolongzy.net##[src="/img/shouliuliang.gif"]
+zxzj.me##div[class^="ADTOPLB_"]
 
 ! 百度系
 pan.baidu.com##.button-box-bg
