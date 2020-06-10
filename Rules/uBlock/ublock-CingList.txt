@@ -149,3 +149,5 @@ pornhub.com###hotVideosSection > .alpha
 pornhub.com##.abovePlayer
 pornhub.com###js-networkBar
 pornhub.com##.alpha.sniperModeEngaged
+pornhub.com##.footer-title
+pornhub.com##.footer

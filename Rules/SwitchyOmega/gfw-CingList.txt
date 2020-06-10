@@ -37,7 +37,6 @@
 ||bgpatterns.com
 ||coverr.co
 ||colorsupplyyy.com
-||phncdn.com
 ||playercdn.net
 ||openload.co
 ||oloadcdn.net
@@ -87,6 +86,7 @@
 ||*porn.com
 ||pornhub.com
 ||pornhub*.com
+||phncdn.com
 ||artstation.com
 ||raindrop.io
 ||ledlenserusa.com
