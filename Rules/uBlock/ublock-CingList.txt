@@ -94,23 +94,10 @@ jd.com##.side__ad.side__ad-right
 jd.com##.activity-top
 
 
-! 睿派克
-repaik.com##.a_cn
-
 ! statista
 statista.com###statisticSlideIn
 statista.com###caRequestPopup
 statista.com##.modal-dialog--caRequest.modal-dialog
-
-! Porn.com
-porn.com##.player-right
-
-! pornhub.com
-pornhub.com##div[class^="hotVideosSection"]
-pornhub.com###hotVideosSection > .alpha
-pornhub.com##.abovePlayer
-pornhub.com###js-networkBar
-pornhub.com##.alpha.sniperModeEngaged
 
 
 ! 天涯
@@ -127,16 +114,8 @@ okzyw.com##.right
 zuidazy.net##body > table
 zuidazy.net##.right
 1977zy.com##body > table
-zuidazy1.net##body > table
-zuidazy2.net##body > table
-zuidazy3.net##body > table
-zuidazy4.net##body > table
-zuidazy5.net##body > table
-zuidazy1.net##.right
-zuidazy2.net##.right
-zuidazy3.net##.right
-zuidazy4.net##.right
-zuidazy5.net##.right
+zuidazy*.net##body > table
+zuidazy*.net##.right
 wolongzy.net##.notice
 wolongzy.net##[src="/img/shouliuliang.gif"]
 zxzj.me##div[class^="ADTOPLB_"]
@@ -160,3 +139,13 @@ baidu.com##.u_member
 baidu.com###J-declare-wrap
 baidu.com###dialog1
 baidu.com##.module-canvas
+
+! Porn.com
+porn.com##.player-right
+
+! pornhub.com
+pornhub.com##div[class^="hotVideosSection"]
+pornhub.com###hotVideosSection > .alpha
+pornhub.com##.abovePlayer
+pornhub.com###js-networkBar
+pornhub.com##.alpha.sniperModeEngaged
