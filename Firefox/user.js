@@ -1,4 +1,5 @@
-//2020.04.10
+//2020.06.10
+
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -47,7 +48,6 @@ user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
-user_pref("browser.urlbar.update1", false);//关闭Firefox72的urlbar放大功能
 
 
 //*==========下载相关==========*//
@@ -57,19 +57,13 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 
 
 //*==========网络相关==========*//
-user_pref("network.security.esni.enabled", true);//加密SNI,让 HTTPS 连接不再暴露SNI域名地址
-user_pref("network.IDN_show_punycode", true);//避免钓鱼
-//预加载
-user_pref("network.dns.disablePrefetchFromHTTPS", false);
-user_pref("network.predictor.enable-prefetch", true);
-user_pref("network.preload", true);
-user_pref("network.preload-experimental", true);
 
+//缓存
+user_pref("browser.cache.disk.enable", false);//禁用硬盘缓存
+user_pref("browser.cache.offline.enable", false);//禁用脱机缓存
 
 //画中画
-user_pref("media.videocontrols.picture-in-picture.enabled", true);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.always-show", true);
-user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", true);
 
 
 //去除附加组中的"推荐扩展"
@@ -79,12 +73,13 @@ user_pref("extensions.htmlaboutaddons.discover.enabled", false);
 
 //书签相关
 user_pref("browser.bookmarks.autoExportHTML", true);//退出时自动备份书签html文件
-user_pref("browser.bookmarks.max_backups", 5);//最大备份数目
+user_pref("browser.bookmarks.max_backups", 3);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 
 
 //插件
 user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏蔽的提示
+
 
 //*==========FX其它类==========*//
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
@@ -99,13 +94,11 @@ user_pref("browser.safebrowsing.malware.enabled", false);//关闭欺诈内容和
 user_pref("browser.safebrowsing.phishing.enabled", false);//关闭欺诈内容和危险软件防护（谷歌网站黑名单）
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
-user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不弹出"What's New"页面
-user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//69以后自动加载 userChrome.ss 和 userContent.css
 user_pref("dom.webcomponents.shadowdom.enabled", true);//脚本"本地 YouTube 下载器"建议开启
 user_pref("extensions.pocket.enabled", false);//自带pocket(禁用,功能太简略,无法离线查看列表)
-user_pref("browser.sessionstore.interval", 600000);//(单位: ms)限制recovery.js文件的写入操作: 默认15s, 改为10分钟
+user_pref("browser.sessionstore.interval", 3600000);//(单位: ms)限制recovery.js文件的写入操作: 默认15s, 改为1小时
 
 
 
@@ -117,7 +110,7 @@ user_pref("browser.sessionstore.interval", 600000);//(单位: ms)限制recovery.
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
 //标签页固定的网站(16个)
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.npr.org/\",\"title\":\"NPR\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.bilibili.com/\",\"title\":\"Bilibili\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.techweb.com.cn/\",\"title\":\"techweb\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://zxwpost.com/\",\"title\":\"志象网\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"},{\"url\":\"http://www.tmtpost.com/\",\"title\":\"钛媒体\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.npr.org/\",\"title\":\"NPR\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.bilibili.com/\",\"title\":\"Bilibili\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"https://www.guancha.cn/\",\"title\":\"观察者网\"},{\"url\":\"http://www.cwzg.cn/\",\"title\":\"察网\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.techweb.com.cn/\",\"title\":\"techweb\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"}]");
 user_pref("browser.newtabpage.activity-stream.topSitesRows", 2);//常用网站2行展示
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);//不展示只言片语
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);//不展示集锦

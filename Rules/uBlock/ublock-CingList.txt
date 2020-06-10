@@ -106,8 +106,8 @@ statista.com##.modal-dialog--caRequest.modal-dialog
 porn.com##.player-right
 
 ! pornhub.com
+pornhub.com##div[class^="hotVideosSection"]
 pornhub.com###hotVideosSection > .alpha
-pornhub.com###hotVideosSection > li:nth-of-type(1)
 pornhub.com##.abovePlayer
 pornhub.com###js-networkBar
 pornhub.com##.alpha.sniperModeEngaged
