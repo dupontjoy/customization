@@ -741,6 +741,20 @@
 				"name": "referer",
 				"value": ""
 			}
+		},
+		{
+			"name": "ph默认英文",
+			"ruleType": "modifySendHeader",
+			"pattern": "^https?:\\/\\/.*\\.pornhub\\.com.*",
+			"exclude": "",
+			"action": {
+				"name": "accept-language",
+				"value": "en-US"
+			},
+			"matchType": "regexp",
+			"isFunction": false,
+			"enable": true,
+			"group": "CingList"
 		}
 	],
 	"receiveHeader": [

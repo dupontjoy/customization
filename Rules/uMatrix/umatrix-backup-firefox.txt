@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.4.1b6",
-  "when": 1592288642054,
+  "when": 1592486134592,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -859,6 +859,7 @@
     "u.tools u-tools.cn * allow",
     "ufanw.com avziliao.duapp.com script allow",
     "uzer.me uzer.me cookie allow",
+    "v2ex.com v2ex.com cookie allow",
     "vancl.com vanclimg.com script allow",
     "victoriassecret.cn baozun.com * allow",
     "viptube.com vptbn.com * allow",
