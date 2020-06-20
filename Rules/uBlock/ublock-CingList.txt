@@ -140,6 +140,11 @@ baidu.com###J-declare-wrap
 baidu.com###dialog1
 baidu.com##.module-canvas
 
+! 2animx.com
+2animx.com###index_left
+2animx.com###index_right
+2animx.com##div[class*="footer"]
+
 ! Porn.com
 porn.com##.player-right
 
