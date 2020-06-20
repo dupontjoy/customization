@@ -6,6 +6,7 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
 
+||2animx.com
 ||gsmorigin.com
 ||fsdn.com
 ||7-zip.org
