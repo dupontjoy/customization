@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1592486160340,
-  "version": "1.27.11rc0",
+  "timeStamp": 1593244364964,
+  "version": "1.27.11rc6",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -43,7 +43,7 @@
     "autoCommentFilterTemplate": "{{date}} {{origin}}",
     "autoUpdateAssetFetchPeriod": 120,
     "autoUpdateDelayAfterLaunch": 180,
-    "autoUpdatePeriod": 1,
+    "autoUpdatePeriod": 30,
     "benchmarkDatasetURL": "unset",
     "blockingProfiles": "11111/#F00 11011/#C0F 11001/#00F 00001",
     "cacheStorageAPI": "unset",
@@ -55,7 +55,7 @@
     "cnameIgnoreRootDocument": true,
     "cnameMaxTTL": 120,
     "cnameReplayFullURL": false,
-    "cnameUncloak": false,
+    "cnameUncloak": true,
     "cnameUncloakProxied": false,
     "consoleLogLevel": "unset",
     "debugScriptlets": false,
