@@ -41,7 +41,8 @@ open.163.com##.appdown
 18h.mm-cg.com##.UT_thread
 18h.mm-cg.com##UL
 ||18h.mm-cg.com/adcg/*.gif$image
-
+! 2020/6/27 http://18h.mm-cg.com
+18h.mm-cg.com##div[class*="ad_box"]
 
 ! 卡饭
 bbs.kafan.cn###autopbn
