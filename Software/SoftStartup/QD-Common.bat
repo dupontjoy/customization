@@ -46,9 +46,6 @@ del "%dir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
 ::启动程序
 start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 
-::Listary六代
-::start "" "%dir%\CingFox\Software\Listary\listary.exe"
-
 ::GFW
 ::start "" "%dir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
 
@@ -57,7 +54,7 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 choice /t 3 /d y /n >nul
 
 ::延迟启动
-start "" "%dir%\Tencent\WeiyunSync\Bin\weiyunsync.exe" /min
+
 
 
 ::完成後退出
