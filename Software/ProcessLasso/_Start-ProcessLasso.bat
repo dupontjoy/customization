@@ -11,11 +11,8 @@ set configfolder=%~dp0\config
 del /s /q "%configfolder%\prolasso.ini"
 
 ::先从github下载最新配置
-start bitsadmin /transfer "prolasso" /priority foreground https://github.com/dupontjoy/customization/raw/master/Software/ProcessLasso/config/prolasso.ini "%configfolder%\prolasso.ini"
+bitsadmin.exe /transfer "prolasso" /priority foreground https://github.com/dupontjoy/customization/raw/master/Software/ProcessLasso/config/prolasso.ini "%configfolder%\prolasso.ini"
 
-::等待一段时间10秒
-@echo off
-choice /t 10 /d y /n >nul
 
 START ProcessGovernor.exe "/logfolder=." "/configfolder=./config"
 START ProcessLasso.exe "/logfolder=." "/configfolder=./config"
