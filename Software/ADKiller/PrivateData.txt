@@ -1,6 +1,0 @@
-﻿181017
-*|TXGuiFoundation|314*212|QQ.exe|0|0|12|12
-*|TXGuiFoundation|258*183|QQ.exe|0|0|12|12
-*|TXGuiFoundation|714*514|QQExternal.exe|0|0|12|12
-WPS广告|QWidget|340*280|wps.exe|0|0|12|12
-WPS广告|QWidget|340*340|wps.exe|0|0|12|12
