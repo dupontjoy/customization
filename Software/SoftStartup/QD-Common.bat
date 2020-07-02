@@ -54,7 +54,7 @@ start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 choice /t 3 /d y /n >nul
 
 ::延迟启动
-start "" "%dir%\ecloud\eCloud.exe"
+start "" "%dir%\ecloud\eCloud.exe" /min
 
 
 ::完成後退出
