@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.4.1b6",
-  "when": 1593244345902,
+  "when": 1594193200029,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -24,7 +24,12 @@
     "popupCollapseBlacklistedDomains": false,
     "popupScopeLevel": "domain",
     "processHyperlinkAuditing": true,
-    "selectedHostsFiles": [],
+    "selectedHostsFiles": [
+      "hphosts",
+      "malware-0",
+      "malware-1",
+      "mvps-0"
+    ],
     "selectedRecipeFiles": [],
     "userHosts": {
       "enabled": false,
@@ -125,10 +130,12 @@
     "* githubassets.com * allow",
     "* githubusercontent.com * allow",
     "* gm.mmstat.com * inherit",
+    "* google.com * allow",
     "* googleusercontent.com * allow",
     "* googlevideo.com * allow",
     "* growingio.com * allow",
     "* gstatic.cn * allow",
+    "* gstatic.com * allow",
     "* gtimg.cn * allow",
     "* gtimg.com * allow",
     "* gwdang.com * allow",
@@ -248,6 +255,7 @@
     "17173.com 17173cdn.com * allow",
     "189.cn 189.cn cookie allow",
     "189.cn 21cn.com * allow",
+    "189.cn 21cn.com cookie allow",
     "189.cn 51educity.com script allow",
     "189.cn ct10000.com * allow",
     "189.cn ct10000.com cookie allow",
@@ -973,6 +981,7 @@
     "zapals.com seal.geotrust.com script allow",
     "zhaopin.com img01.zpin.net.cn script allow",
     "zhaopin.com zhaopin.cn * allow",
+    "zhaoxin.com xiniu.com * allow",
     "zhenai.com zastatic.com script allow",
     "zhihu.com vzuu.com * allow",
     "zhihu.com z1.zhimg.com script allow",
