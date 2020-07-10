@@ -9,5 +9,8 @@ set dir2=C:\Program Files (x86)
 ::公司用軟件
 start "" "%dir%\Tencent\WeChat\WeChat.exe"
 
+::启动wifi热点
+netsh wlan start hostednetwork
+
 ::完成後退出
 exit
