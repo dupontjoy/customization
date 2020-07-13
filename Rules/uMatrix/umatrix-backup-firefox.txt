@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.4.1b6",
-  "when": 1594193200029,
+  "when": 1594626714784,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -25,6 +25,7 @@
     "popupScopeLevel": "domain",
     "processHyperlinkAuditing": true,
     "selectedHostsFiles": [
+      "dpollock-0",
       "hphosts",
       "malware-0",
       "malware-1",
@@ -67,6 +68,7 @@
     "* alibaba.com cookie allow",
     "* alicdn.com * allow",
     "* aliimg.com * allow",
+    "* alipay.com * allow",
     "* alipay.com cookie allow",
     "* alipayobjects.com * allow",
     "* alipayobjects.com cookie allow",
@@ -175,7 +177,7 @@
     "* media.richrelevance.com * inherit",
     "* mediav.com * allow",
     "* miguvideo.com * allow",
-    "* mmstat.com * inherit",
+    "* mmstat.com * allow",
     "* msecnd.net * allow",
     "* myqcloud.com * allow",
     "* netease.com * allow",
