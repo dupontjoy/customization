@@ -7,6 +7,11 @@
 ::%1 start "" mshta vbscript:createobject("shell.application").shellexecute("""%~0""","::",,"runas",1)(window.close)&exit
 ::完
 
+cd /d %~dp0
+::設置模塊路徑
+::将当前目录保存到参数b中,等号前后不要有空格
+set b=%cd%
+
 ::設置程序文件夾位置
 set dir=D:\Program Files
 
