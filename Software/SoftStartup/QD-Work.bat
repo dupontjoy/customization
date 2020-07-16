@@ -9,8 +9,6 @@ set dir2=C:\Program Files (x86)
 ::公司用軟件
 start "" "%dir%\Tencent\WeChat\WeChat.exe"
 
-::Win_Wifi
-CALL Win_Wifi.bat
 
 ::完成後退出
 exit
