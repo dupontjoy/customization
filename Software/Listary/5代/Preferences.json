@@ -451,7 +451,15 @@
       "regcode": "FP7832JRZS7TVFCHJXN8Z7S7MBZZSRBJDEX6PY3PL239QU53M2R9JHNK2XW4LY6D32CJ3BJDHK2L5APH3LFVFASHVLHFEXEHFX79M6NDNUJCMR8LRCLAN7MPSD6CAGTMCAHYH22CGT8T542RFPAGVY23W349QJV4C4G8XT2893SSUZV9E3CCPRGVY3A7FE3B"
    },
    "projects": {
-
+      "items": [ {
+         "keyword": "github",
+         "name": "GitHub",
+         "path": "D:\\My Documents\\GitHub"
+      }, {
+         "keyword": "189",
+         "name": "\u5929\u7FFC\u4E91\u76D8\u540C\u6B65\u76D8",
+         "path": "D:\\My Documents\\\u5929\u7FFC\u4E91\u76D8\u540C\u6B65\u76D8"
+      } ]
    },
    "search": {
       "custom_index": [ {
