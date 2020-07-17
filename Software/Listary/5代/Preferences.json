@@ -154,7 +154,7 @@
    },
    "check_update": {
       "last_check_local_version": "5.00.2843",
-      "last_check_time": "13232343565366352",
+      "last_check_time": "13239445664430666",
       "version_setting": {
          "remind_later": "0",
          "skip": false,
@@ -470,6 +470,9 @@
          "update_minutes": 10
       }, {
          "path": "Z:\\",
+         "update_minutes": 10
+      }, {
+         "path": "E:\\",
          "update_minutes": 10
       }, {
          "path": "F:\\",
