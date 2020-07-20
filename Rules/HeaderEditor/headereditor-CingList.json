@@ -62,18 +62,6 @@
 		},
 		{
 			"enable": true,
-			"name": "google搜索国家域名 >> google.com",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/www\\.google\\.(?:co|com)\\.(?:hk|jp|sg|kr)\\/(?:s\\?|search\\?|webhp\\?|.*\\&safe=strict)(.*)$",
-			"exclude": "",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://www.google.com/search?$1",
-			"group": "CingList"
-		},
-		{
-			"enable": true,
 			"name": "凤凰网 只显示首图修正",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -185,7 +173,7 @@
 		{
 			"name": "网站语言默认英文",
 			"ruleType": "modifySendHeader",
-			"pattern": "^https?:\\/\\/.*\\.(bing|pornhub)\\.com.*",
+			"pattern": "^https?:\\/\\/.*\\.(bing|pornhub|google)\\.com.*",
 			"exclude": "",
 			"action": {
 				"name": "accept-language",
