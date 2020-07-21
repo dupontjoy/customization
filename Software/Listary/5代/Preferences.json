@@ -9,6 +9,13 @@
          "keyword": "",
          "type": "builtin"
       }, {
+         "command_string": "_action_open_with",
+         "enabled": true,
+         "guid": "{6d2b6aa4-67e5-4dd6-b7ea-c4b30ae8c9a5}",
+         "hotkey": 20225,
+         "keyword": "",
+         "type": "builtin"
+      }, {
          "command_string": "_action_copy_to_current_folder",
          "enabled": true,
          "guid": "{edf97959-2c24-47ed-bd7b-3dc5e76b7752}",
@@ -37,10 +44,17 @@
          "keyword": "",
          "type": "builtin"
       }, {
-         "command_string": "_action_open_with",
+         "command_string": "_action_copy_path",
          "enabled": true,
-         "guid": "{6d2b6aa4-67e5-4dd6-b7ea-c4b30ae8c9a5}",
-         "hotkey": 20225,
+         "guid": "{35c0504f-b1a8-4c82-8e32-aa1e68520972}",
+         "hotkey": 17158,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_copy_folder_path",
+         "enabled": true,
+         "guid": "{4025f3ed-47e1-4212-9276-de3fbb0786e8}",
+         "hotkey": 0,
          "keyword": "",
          "type": "builtin"
       }, {
@@ -54,20 +68,6 @@
          "command_string": "_action_set_keyword",
          "enabled": false,
          "guid": "{6ee550e1-8ef3-4025-a673-88d96a48bbc8}",
-         "hotkey": 0,
-         "keyword": "",
-         "type": "builtin"
-      }, {
-         "command_string": "_action_copy_path",
-         "enabled": true,
-         "guid": "{35c0504f-b1a8-4c82-8e32-aa1e68520972}",
-         "hotkey": 17158,
-         "keyword": "",
-         "type": "builtin"
-      }, {
-         "command_string": "_action_copy_folder_path",
-         "enabled": true,
-         "guid": "{4025f3ed-47e1-4212-9276-de3fbb0786e8}",
          "hotkey": 0,
          "keyword": "",
          "type": "builtin"
