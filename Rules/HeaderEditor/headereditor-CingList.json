@@ -774,5 +774,6 @@
 				"value": "*"
 			}
 		}
-	]
+	],
+	"receiveBody": []
 }
