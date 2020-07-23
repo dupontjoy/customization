@@ -20,14 +20,17 @@ ECHO  1. Build_WiFi
 ECHO. *****************************
 ECHO  2. Open_WiFi
 ECHO. *****************************
-ECHO  3. Close_WiFi
+ECHO  3. Restart_WiFi
+ECHO. *****************************
+ECHO  4. Close_WiFi
 ECHO.
 set /p a=请输入操作序号并回车（1、2）：
 cls
 
 if %a%==1 goto Build_WiFi
 if %a%==2 goto Open_WiFi
-if %a%==3 goto Close_WiFi
+if %a%==3 goto Restart_WiFi
+if %a%==4 goto Close_WiFi
 
 
 :Build_WiFi
@@ -42,5 +45,11 @@ Goto menu
 
 :Close_WiFi
 netsh wlan stop hostednetwork
+@echo.
+Goto menu
+
+:Restart_WiFi
+netsh wlan stop hostednetwork
+netsh wlan start hostednetwork
 @echo.
 Goto menu
