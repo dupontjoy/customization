@@ -5,7 +5,7 @@
 ::%1 start "" mshta vbscript:createobject("shell.application").shellexecute("""%~0""","::",,"runas",1)(window.close)&exit
 
 ::备份部分开始
-Title windows wifi 
+Title Windows WiFi 
 ::界面大小，Cols为宽，Lines为高
 COLOR 0a
 MODE con: COLS=77 LINES=20
@@ -14,7 +14,7 @@ cd /d %~dp0
 :menu
 cls
 ECHO.
-ECHO  windows wifi                     
+ECHO  Windows WiFi                     
 ECHO.
 ECHO  1. Build_WiFi
 ECHO. *****************************
