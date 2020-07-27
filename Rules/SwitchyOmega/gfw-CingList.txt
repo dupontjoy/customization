@@ -139,7 +139,6 @@
 ||google.com
 ||googleapis.com
 ||googlecode.com
-||greasyfork.org
 ||gsmarena.com
 ||gstatic.com
 ||imgur.com
