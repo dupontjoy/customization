@@ -6,7 +6,7 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !------------------------------------------------------------------!
 
-||yinxiang.com
+
 ||jquery.com
 ||2animx.com
 ||gsmorigin.com
