@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1595496426800,
-  "version": "1.28.5b5",
+  "timeStamp": 1596344816756,
+  "version": "1.28.5b10",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -39,18 +39,14 @@
     "adguard-annoyance",
     "adguard-social",
     "fanboy-cookiemonster",
-    "fanboy-annoyance",
-    "fanboy-social",
     "ublock-annoyances",
-    "dpollock-0",
-    "mvps-0",
     "CHN-1",
     "CHN-0",
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
     "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
+    "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt",
-    "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
+    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
