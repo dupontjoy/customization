@@ -1,1 +1,1 @@
-将policies.json放到Firefox安装目录的distribution文件夹下
+将distribution文件夹放到Firefox安装目录下
