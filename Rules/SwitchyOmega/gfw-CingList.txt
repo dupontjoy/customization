@@ -181,6 +181,7 @@
 ||bitdefender.com
 ||etradesupply.com
 ||gearbest.com
+||gbtcdn.com
 ||books.google.com
 ||userstyles.org
 
