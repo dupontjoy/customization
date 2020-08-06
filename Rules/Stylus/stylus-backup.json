@@ -20,8 +20,10 @@
 				"code": "/*图片经过外发光*/\nimg:hover {\n\tbox-shadow: 0px 0px 4px 4px rgba(130,190,10,0.6) !important;\n\t-moz-transition-property: box-shadow;\n\t-moz-transition-duration: .31s;\n}\n\nimg {\n\t-moz-transition-property: box-shadow;\n\t-moz-transition-duration: .31s;\n}"
 			}
 		],
-		"updateDate": 1562816399555,
-		"id": 1
+		"updateDate": 1585310572168,
+		"id": 1,
+		"_id": "3a4b6748-484e-40e8-af14-1bc75591620d",
+		"_rev": 1585310572168
 	},
 	{
 		"enabled": true,
@@ -37,7 +39,9 @@
 			}
 		],
 		"updateDate": 1562816440906,
-		"id": 2
+		"id": 2,
+		"_id": "fcae523c-2e7d-45ce-8d5d-f7b3888cea7f",
+		"_rev": 1583458559254
 	},
 	{
 		"enabled": true,
@@ -55,7 +59,7 @@
 				]
 			},
 			{
-				"code": "/*=TvcMall品类管理=*/\n\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(3)/*父级分类ID*/ {\n\t\twidth: 60px  !important;\n\t}\n   .list_table > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)/*分类ID*/ {\n\t\twidth: 60px  !important;\n\t}\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(4)/*排序*/ {\n\t\twidth: 30px  !important;\n\t}\n\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(5)/*备注*/ {\n\t\twidth: 40px  !important;\n\t}\n\n\tA[title=\"子分类排序\"] {\n\t\tdisplay: none !important;\n\t}\n\n\tA[title=\"删除\"] {\n\t\tcolor: red !important;\n\t}\n\n\tA[class=\"btn_add\"]/*添加子分类*/ {\n\t\tcolor: green !important;\n\t}\n\n\tA[rel=\"link\"]/*子分类排序导出*/ {\n\t\tcolor: black !important;\n\t}\n\n\tA[title=\"子分类排序导入\"]/*子分类排序导入*/ {\n\t\tcolor: black !important;\n\t}",
+				"code": "/*=TvcMall品类管理=*/\n\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(3)/*父级分类ID*/ {\n\t\twidth: 60px  !important;\n\t}\n   .list_table > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)/*分类ID*/ {\n\t\twidth: 60px  !important;\n\t}\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(4)/*排序*/ {\n\t\twidth: 30px  !important;\n\t}\n\n\t#J_mainContent > DIV > TABLE > TBODY > TR:first-child > TH:nth-child(5)/*备注*/ {\n\t\twidth: 40px  !important;\n\t}\n\n\tA[title=\"子分类排序\"] {\n\t\tdisplay: none !important;\n\t}\n\n\tA[title=\"删除\"],\n    A[title=\"移除\"] {\n\t\tcolor: red !important;\n\t}\n\n    A[title=\"锁定\"] {\n\t\tcolor: #FF4500 !important;\n\t}\n\n\tA[class=\"btn_add\"]/*添加子分类*/ {\n\t\tcolor: green !important;\n\t}\n\n\tA[rel=\"link\"]/*子分类排序导出*/ {\n\t\tcolor: black !important;\n\t}\n\n\tA[title=\"子分类排序导入\"]/*子分类排序导入*/ {\n\t\tcolor: black !important;\n\t}",
 				"regexps": [
 					"https?:\\/\\/(ic|cm)\\.(sjlpj\\.cn|test\\.dev)\\/.*ProductNewCategory\\/.*"
 				]
@@ -91,7 +95,9 @@
 				]
 			}
 		],
-		"updateDate": 1563759263209,
-		"id": 3
+		"updateDate": 1595038440537,
+		"id": 3,
+		"_id": "de7407fa-e964-4124-acf7-dd6497f391fc",
+		"_rev": 1595038440537
 	}
 ]
