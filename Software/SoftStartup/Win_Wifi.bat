@@ -23,6 +23,8 @@ ECHO. *****************************
 ECHO  3. Restart_WiFi
 ECHO. *****************************
 ECHO  4. Close_WiFi
+ECHO. *****************************
+ECHO  5. DHCP
 ECHO.
 set /p a=请输入操作序号并回车（1、2）：
 cls
@@ -31,6 +33,7 @@ if %a%==1 goto Build_WiFi
 if %a%==2 goto Open_WiFi
 if %a%==3 goto Restart_WiFi
 if %a%==4 goto Close_WiFi
+if %a%==5 goto DHCP
 
 
 :Build_WiFi
@@ -51,5 +54,11 @@ Goto menu
 :Restart_WiFi
 netsh wlan stop hostednetwork
 netsh wlan start hostednetwork
+@echo.
+Goto DHCP
+
+:DHCP
+netsh interface ip set address name="以太网" source=dhcp
+netsh interface ip set dns name="以太网" source=dhcp
 @echo.
 Goto menu
