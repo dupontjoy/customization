@@ -55,7 +55,7 @@ Goto menu
 netsh wlan stop hostednetwork
 netsh wlan start hostednetwork
 @echo.
-Goto DHCP
+Goto menu
 
 :DHCP
 netsh interface ip set address name="ÒÔÌ«Íø" source=dhcp
