@@ -185,6 +185,9 @@
 ||books.google.com
 ||userstyles.org
 
+！资源网
+||okzyw.com
+
 !公司
 ||tvc-mall.com
 ||cellmost.com
