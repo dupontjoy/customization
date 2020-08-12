@@ -187,6 +187,7 @@
 
 ！资源网
 ||okzyw.com
+||*.cdn*.com
 
 !公司
 ||tvc-mall.com
