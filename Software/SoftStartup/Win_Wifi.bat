@@ -75,7 +75,9 @@ if %hh% LSS 10 set hh=0%hh%
 set date=%YY%.%MON%.%DD%-%hh%:%mm%:%ss%
 
 ::输出时间
-echo %date%
+echo %date% 重启WiFi
+@echo.
+@echo.
 
 ::重启WiFi
 netsh wlan stop hostednetwork
