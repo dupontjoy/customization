@@ -20,7 +20,7 @@ ECHO  1. Build_WiFi
 ECHO. *****************************
 ECHO  2. Open_WiFi
 ECHO. *****************************
-ECHO  3. Restart_WiFi
+ECHO  3. Restart_WiFi（循环，自动重启）
 ECHO. *****************************
 ECHO  4. Close_WiFi
 ECHO. *****************************
@@ -37,25 +37,31 @@ if %a%==5 goto DHCP
 
 
 :Build_WiFi
-netsh wlan set hostednetwork mode=allow ssid=My-8848 key=my888666
+netsh wlan set hostednetwork mode=allow setting=security ssid=My-8848 key=my888666
 @echo.
 Goto menu
 
 :Open_WiFi
+netsh wlan set hostednetwork mode=allow
 netsh wlan start hostednetwork
 @echo.
 Goto menu
 
 :Close_WiFi
 netsh wlan stop hostednetwork
+netsh wlan set hostednetwork mode=disallow
 @echo.
 Goto menu
 
 :Restart_WiFi
 netsh wlan stop hostednetwork
+netsh wlan set hostednetwork mode=disallow
+netsh wlan set hostednetwork mode=allow
 netsh wlan start hostednetwork
 @echo.
-Goto menu
+::180秒自动重启
+choice /t 1800 /d y /n >nul
+Goto Restart_WiFi
 
 :DHCP
 netsh interface ip set address name="以太网" source=dhcp
