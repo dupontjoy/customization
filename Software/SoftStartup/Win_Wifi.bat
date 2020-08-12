@@ -37,23 +37,27 @@ if %a%==5 goto DHCP
 
 
 :Build_WiFi
+cls
 netsh wlan set hostednetwork mode=allow setting=security ssid=My-8848 key=my888666
 @echo.
 Goto menu
 
 :Open_WiFi
+cls
 netsh wlan set hostednetwork mode=allow
 netsh wlan start hostednetwork
 @echo.
 Goto menu
 
 :Close_WiFi
+cls
 netsh wlan stop hostednetwork
 netsh wlan set hostednetwork mode=disallow
 @echo.
 Goto menu
 
 :Restart_WiFi
+cls
 ::完整日期和時間
 set YY=%date:~0,4%
 set MON=%date:~5,2%
@@ -79,11 +83,13 @@ netsh wlan set hostednetwork mode=disallow
 netsh wlan set hostednetwork mode=allow
 netsh wlan start hostednetwork
 @echo.
-::180秒自动重启
+::30分钟自动重启
+@echo off
 choice /t 1800 /d y /n >nul
 Goto Restart_WiFi
 
 :DHCP
+cls
 netsh interface ip set address name="以太网" source=dhcp
 netsh interface ip set dns name="以太网" source=dhcp
 @echo.
