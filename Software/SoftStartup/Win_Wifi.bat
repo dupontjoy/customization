@@ -20,7 +20,7 @@ ECHO  1. Build_WiFi
 ECHO. *****************************
 ECHO  2. Open_WiFi
 ECHO. *****************************
-ECHO  3. Restart_WiFi（循环，自动重启）
+ECHO  3. Restart_WiFi（自动重启）
 ECHO. *****************************
 ECHO  4. Close_WiFi
 ECHO. *****************************
