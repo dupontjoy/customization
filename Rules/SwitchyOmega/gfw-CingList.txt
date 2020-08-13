@@ -185,14 +185,12 @@
 ||books.google.com
 ||userstyles.org
 
-！资源网
-||okzyw.com
-||cdn*.com
 
 !公司
 ||tvc-mall.com
 ||cellmost.com
 ||ipartsexpert.com
+
 
 !不翻
 !@@||kiwivm.64clouds.com
