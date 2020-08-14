@@ -92,6 +92,7 @@ Goto Restart_WiFi
 
 :DHCP
 cls
+::设置自动获取
 netsh interface ip set address name="以太网" source=dhcp
 netsh interface ip set dns name="以太网" source=dhcp
 @echo.
