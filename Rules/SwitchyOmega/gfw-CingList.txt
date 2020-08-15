@@ -185,8 +185,6 @@
 ||books.google.com
 ||userstyles.org
 
-！资源网
-||cdn*.com
 
 !公司
 ||tvc-mall.com
