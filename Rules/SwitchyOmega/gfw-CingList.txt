@@ -178,6 +178,7 @@
 ||anki.com
 ||listary.com
 ||nautil.us
+||bitwarden.com
 ||bitdefender.com
 ||etradesupply.com
 ||gearbest.com
