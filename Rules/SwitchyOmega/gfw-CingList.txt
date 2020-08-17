@@ -7,6 +7,7 @@
 !------------------------------------------------------------------!
 
 
+||atlassian.com
 ||greasyfork.org
 ||jquery.com
 ||2animx.com
