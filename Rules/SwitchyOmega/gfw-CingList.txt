@@ -8,6 +8,7 @@
 
 
 ||atlassian.com
+||userstyles.org
 ||greasyfork.org
 ||jquery.com
 ||2animx.com
