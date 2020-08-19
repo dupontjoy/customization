@@ -189,6 +189,8 @@
 ||books.google.com
 ||userstyles.org
 
+||微软
+||msocdn.com
 
 !公司
 ||tvc-mall.com
