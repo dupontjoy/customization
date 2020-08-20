@@ -7,6 +7,7 @@
 !------------------------------------------------------------------!
 
 
+||dota2.com.cn
 ||caixin.com
 ||atlassian.com
 ||userstyles.org
