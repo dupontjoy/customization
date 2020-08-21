@@ -190,7 +190,10 @@
 ||books.google.com
 ||userstyles.org
 
-||微软
+！资源网
+||cdn*-*.com
+
+！微软
 ||msocdn.com
 
 !公司
