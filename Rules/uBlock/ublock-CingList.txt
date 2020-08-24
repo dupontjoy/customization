@@ -37,12 +37,6 @@ mail.163.com##[title="应用中心"]
 open.163.com###app_download_recommend
 open.163.com##.appdown
 
-! 18H禁
-18h.mm-cg.com##.UT_thread
-18h.mm-cg.com##UL
-||18h.mm-cg.com/adcg/*.gif$image
-! 2020/6/27 http://18h.mm-cg.com
-18h.mm-cg.com##div[class*="ad_box"]
 
 ! 卡饭
 bbs.kafan.cn###autopbn
@@ -51,7 +45,6 @@ bbs.kafan.cn##.bm_h
 bbs.kafan.cn##.ptn.xg2
 bbs.kafan.cn##.a_pt
 bbs.kafan.cn##.a_pb
-
 
 
 ! cnbeta资讯
@@ -109,18 +102,6 @@ tianya.cn##.scroll-btn
 yunpan.360.cn##.redpacket
 
 
-! 资源网
-okzy*.com##body > table
-okzy*.com##.right
-zuidazy*.net##body > table
-zuidazy*.net##.right
-1977zy*.com##body > table
-zuidazy*.net##body > table
-zuidazy*.net##.right
-wolongzy*.net##.notice
-wolongzy*.net##[src="/img/shouliuliang.gif"]
-zxzj.me##div[class^="ADTOPLB_"]
-
 ! 百度系
 pan.baidu.com##div[class*="JS-nativeupload-tip"]
 pan.baidu.com##.button-box-bg
@@ -147,6 +128,12 @@ baidu.com##.module-canvas
 2animx.com###index_right
 2animx.com##div[class*="footer"]
 
+! 18H禁
+18h.mm-cg.com##.UT_thread
+18h.mm-cg.com##UL
+||18h.mm-cg.com/adcg/*.gif$image
+18h.mm-cg.com##div[class*="ad_box"]
+
 ! Porn.com
 porn.com##.player-right
 
@@ -159,3 +146,15 @@ pornhub.com##.alpha.sniperModeEngaged
 pornhub.com##.footer-title
 pornhub.com##.footer
 
+! 资源网
+okzy10.com##body > table
+okzyw.com##body > table
+okzyw.com##.right
+zuidazy.net##body > table
+zuidazy.net##.right
+1977zy*.com##body > table
+zuidazy.net##body > table
+zuidazy.net##.right
+wolongzy.net##.notice
+wolongzy.net##[src="/img/shouliuliang.gif"]
+zxzj.me##div[class^="ADTOPLB_"]
