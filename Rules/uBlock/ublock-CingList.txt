@@ -110,15 +110,15 @@ yunpan.360.cn##.redpacket
 
 
 ! 资源网
-okzyw*.com##body > table
-okzyw*.com##.right
-zuidazy.net##body > table
-zuidazy.net##.right
-1977zy.com##body > table
+okzy*.com##body > table
+okzy*.com##.right
 zuidazy*.net##body > table
 zuidazy*.net##.right
-wolongzy.net##.notice
-wolongzy.net##[src="/img/shouliuliang.gif"]
+1977zy*.com##body > table
+zuidazy*.net##body > table
+zuidazy*.net##.right
+wolongzy*.net##.notice
+wolongzy*.net##[src="/img/shouliuliang.gif"]
 zxzj.me##div[class^="ADTOPLB_"]
 
 ! 百度系
