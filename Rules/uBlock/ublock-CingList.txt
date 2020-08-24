@@ -147,12 +147,12 @@ pornhub.com##.footer-title
 pornhub.com##.footer
 
 ! 资源网
-okzy10.com##body > table
-okzyw.com##body > table
+okzyw.com|okzy10.com##body > table
+! okzyw.com##body > table
 okzyw.com##.right
 zuidazy.net##body > table
 zuidazy.net##.right
-1977zy*.com##body > table
+1977zy.com##body > table
 zuidazy.net##body > table
 zuidazy.net##.right
 wolongzy.net##.notice
