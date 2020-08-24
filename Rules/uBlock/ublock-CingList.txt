@@ -148,8 +148,11 @@ pornhub.com##.footer
 dililitv.com##.widget_ads.widget
 
 ! 资源网
-okzyw.com,okzy10.com,zuidazy.net,1977zy.com,zuidazy.net##body > table
-okzyw.com,okzy10.com,zuidazy.net,1977zy.com,zuidazy.net##.right
+! okzyw.com,okzy10.com,zuidazy.net,1977zy.com,zuidazy.net##body > table
+! okzyw.com,okzy10.com,zuidazy.net,1977zy.com,zuidazy.net##.right
+! 尝试这种宽泛的写法，如果有问题再改回去。
+##body > table
+##.right
 wolongzy.net##.notice
 wolongzy.net##[src="/img/shouliuliang.gif"]
 zxzj.me##div[class^="ADTOPLB_"]
