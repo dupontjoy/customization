@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1596678244775,
-  "version": "1.28.5b13",
+  "timeStamp": 1598258060562,
+  "version": "1.29.1b8",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -38,9 +38,9 @@
     "CHN-0",
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
     "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
+    "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt",
-    "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
+    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
@@ -54,6 +54,7 @@
     "cacheStorageAPI": "unset",
     "cacheStorageCompression": true,
     "cacheControlForFirefox1376932": "no-cache, no-store, must-revalidate",
+    "cloudStorageCompression": false,
     "cnameIgnoreList": "unset",
     "cnameIgnore1stParty": true,
     "cnameIgnoreExceptions": true,
