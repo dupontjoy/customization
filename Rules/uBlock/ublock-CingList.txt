@@ -3,7 +3,7 @@
 ! Description:  自用过滤规则。
 ! Author:       Cing
 ! License:      Creative Commons BY-NC-SA
-! Version:      2020
+! Version:      2020.08
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
@@ -25,8 +25,6 @@ youtube.com###iri-quick-control-full-browser
 ! !Youtube本地下载器需要设置项
 @@||youtube.com/get_video_info?*=detailpage$xhr,domain=youtube.com
 
-! dilili
-dililitv.com##.widget_ads.widget
 
 ! 网易
 163.com##.clearfix.bobo-wrap
@@ -146,15 +144,12 @@ pornhub.com##.alpha.sniperModeEngaged
 pornhub.com##.footer-title
 pornhub.com##.footer
 
+! dilili
+dililitv.com##.widget_ads.widget
+
 ! 资源网
-okzyw.com|okzy10.com##body > table
-! okzyw.com##body > table
-okzyw.com##.right
-zuidazy.net##body > table
-zuidazy.net##.right
-1977zy.com##body > table
-zuidazy.net##body > table
-zuidazy.net##.right
+okzyw.com,okzy10.com,zuidazy.net,1977zy.com,zuidazy.net##body > table
+okzyw.com,okzy10.com,zuidazy.net,1977zy.com,zuidazy.net##.right
 wolongzy.net##.notice
 wolongzy.net##[src="/img/shouliuliang.gif"]
 zxzj.me##div[class^="ADTOPLB_"]
