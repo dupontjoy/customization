@@ -110,8 +110,8 @@ yunpan.360.cn##.redpacket
 
 
 ! 资源网
-okzyw.com##body > table
-okzyw.com##.right
+okzyw*.com##body > table
+okzyw*.com##.right
 zuidazy.net##body > table
 zuidazy.net##.right
 1977zy.com##body > table
