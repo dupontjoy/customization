@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1598258060562,
+  "timeStamp": 1598445093317,
   "version": "1.29.1b8",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": false,
-    "externalLists": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    "externalLists": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt\nhttps://gitee.com/cjx82630/cjxlist/raw/master/cjx-ublock.txt\nhttps://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt\nhttps://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": false,
@@ -36,11 +36,14 @@
     "easyprivacy",
     "CHN-1",
     "CHN-0",
+    "https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt",
+    "https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt",
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
     "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt"
+    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt",
+    "https://gitee.com/cjx82630/cjxlist/raw/master/cjx-ublock.txt"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
