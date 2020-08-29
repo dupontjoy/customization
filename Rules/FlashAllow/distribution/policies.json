@@ -2,6 +2,8 @@
 "policies": {
 "FlashPlugin": {
 "Allow": [
+"http://www.oktvmao.com",
+"https://www.oktvmao.com",
 "https://www.2animx.com",
 "http://www.duowan.com",
 "https://pan.baidu.com",
