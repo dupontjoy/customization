@@ -192,6 +192,7 @@
 
 ！资源网
 ||cdn*-*.com
+||*-ok*.com
 
 ！微软
 ||msocdn.com
