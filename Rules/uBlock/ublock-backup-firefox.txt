@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1598445093317,
-  "version": "1.29.1b8",
+  "timeStamp": 1598845764261,
+  "version": "1.29.3b7",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": false,
-    "externalLists": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt\nhttps://gitee.com/cjx82630/cjxlist/raw/master/cjx-ublock.txt\nhttps://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt\nhttps://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    "externalLists": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt\nhttps://gitee.com/cjx82630/cjxlist/raw/master/cjx-ublock.txt\nhttps://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": false,
@@ -36,14 +36,13 @@
     "easyprivacy",
     "CHN-1",
     "CHN-0",
-    "https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt",
     "https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt",
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
     "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+    "https://gitee.com/cjx82630/cjxlist/raw/master/cjx-ublock.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt",
-    "https://gitee.com/cjx82630/cjxlist/raw/master/cjx-ublock.txt"
+    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/ublock-CingList.txt"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
@@ -103,6 +102,6 @@
   "netWhitelist": "# edge-scheme\n# wyciwyg-scheme\nabout-scheme\nchrome-extension-scheme\nchrome-scheme\nmoz-extension-scheme\nopera-scheme\nvivaldi-scheme",
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
-  "hostnameSwitchesString": "no-csp-reports: * true\nno-large-media: behind-the-scene false\nno-scripting: behind-the-scene false\nno-strict-blocking: ads.google.com true\nno-strict-blocking: snssdk.com true",
+  "hostnameSwitchesString": "no-csp-reports: * true\nno-large-media: behind-the-scene false\nno-strict-blocking: ads.google.com true\nno-strict-blocking: snssdk.com true",
   "userFilters": ""
 }
