@@ -49,7 +49,7 @@ del "%dir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
 start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
 
 ::GFW
-::start "" "%dir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
+start "" "%dir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
 
 ::等待一段时间
 @echo off
