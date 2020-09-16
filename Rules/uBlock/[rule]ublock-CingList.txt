@@ -5,7 +5,7 @@
 ! License:      Creative Commons BY-NC-SA
 ! Version:      2020.08
 ! Expires:      1h
-! Contact:      https://github.com/dupontjoy/customization/Rules
+! Contact:      https://github.com/dupontjoy/customization/tree/master/Rules
 !-------------------------------------------------------------------------------------!
 
 
