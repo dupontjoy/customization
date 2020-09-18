@@ -10,7 +10,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://$1/showthread.php?t=$2",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -22,7 +22,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://$1/thread-$2-1-1.html",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -34,7 +34,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://$1/thread-$2-1.html",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -46,7 +46,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://$1/viewthread.php?tid=$2",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -58,7 +58,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://book.bfnn.org/books$1",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -70,7 +70,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://$1.ifeng.com/a/$3",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -82,7 +82,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://$1.ifeng.com/$2shtml$3",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -94,7 +94,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "$1_s.shtml",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -106,7 +106,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://tieba.baidu.com/$2",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -118,7 +118,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://club.kdslife.com/t_$2.html",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -130,7 +130,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://fonts.geekzu.org/$1",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -142,7 +142,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://gapis.geekzu.org/ajax/$1",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -154,7 +154,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://fdn.geekzu.org/g-fonts/$1",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		},
 		{
 			"enable": true,
@@ -166,7 +166,7 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://gapis.geekzu.org/g-themes/$1",
-			"group": "CingList"
+			"group": "CingList-Redirect"
 		}
 	],
 	"sendHeader": [
@@ -182,7 +182,7 @@
 			"matchType": "regexp",
 			"isFunction": false,
 			"enable": true,
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -196,7 +196,7 @@
 				"name": "referer",
 				"value": "https://www.google.com/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -210,7 +210,7 @@
 				"name": "referer",
 				"value": "https://www.facebook.com/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -224,7 +224,7 @@
 				"name": "referer",
 				"value": "https://www.google.com/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -238,7 +238,7 @@
 				"name": "referer",
 				"value": "http://blog.sina.com.cn/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -252,7 +252,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -266,7 +266,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -280,21 +280,21 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
 			"name": "baidu图片盗链",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/.*(bdimg|bdstatic|(.*(img|photo).*\\.baidu))\\.com.*",
+			"pattern": "^https?:\\/\\/.*(bdimg|bdstatic|(.*(img|photo|pics).*\\.baidu))\\.com.*",
 			"exclude": "",
 			"isFunction": false,
 			"action": {
 				"name": "referer",
 				"value": "https://www.baidu.com"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -308,7 +308,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -322,7 +322,7 @@
 				"name": "referer",
 				"value": "http://www.tianya.cn/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -336,7 +336,7 @@
 				"name": "referer",
 				"value": "http://www.163.com/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -350,7 +350,7 @@
 				"name": "referer",
 				"value": "https://www.chiphell.com/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -364,7 +364,7 @@
 				"name": "referer",
 				"value": "http://www.pconline.com.cn/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -378,7 +378,7 @@
 				"name": "referer",
 				"value": "https://www.pixiv.net/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -392,7 +392,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -406,7 +406,7 @@
 				"name": "referer",
 				"value": "http://club.autohome.com.cn/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -420,7 +420,7 @@
 				"name": "referer",
 				"value": "http://www.douban.com"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -434,7 +434,7 @@
 				"name": "referer",
 				"value": "http://jandan.net/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -448,7 +448,7 @@
 				"name": "referer",
 				"value": "http://www.imanhua.com/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -462,7 +462,7 @@
 				"name": "referer",
 				"value": "http://www.tudou.com/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -476,7 +476,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -490,7 +490,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -504,7 +504,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -518,7 +518,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -532,7 +532,7 @@
 				"name": "referer",
 				"value": "https://www.cnbeta.com/"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -546,7 +546,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -560,7 +560,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -574,7 +574,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -588,7 +588,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -602,7 +602,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -616,7 +616,7 @@
 				"name": "referer",
 				"value": "https://www.google.com"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -630,7 +630,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -644,7 +644,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -658,7 +658,7 @@
 				"name": "referer",
 				"value": "https://paper.seebug.org"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -672,7 +672,7 @@
 				"name": "referer",
 				"value": "https://image.jiqizhixin.com"
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -686,7 +686,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -700,7 +700,7 @@
 				"name": "referer",
 				"value": ""
 			},
-			"group": "CingList"
+			"group": "CingList-Request"
 		},
 		{
 			"enable": true,
@@ -709,7 +709,7 @@
 			"matchType": "regexp",
 			"pattern": "sunzhongwei.com",
 			"exclude": "",
-			"group": "CingList",
+			"group": "CingList-Request",
 			"isFunction": false,
 			"action": {
 				"name": "referer",
@@ -723,7 +723,7 @@
 			"matchType": "regexp",
 			"pattern": "windows10.pro",
 			"exclude": "",
-			"group": "CingList",
+			"group": "CingList-Request",
 			"isFunction": false,
 			"action": {
 				"name": "referer",
@@ -739,7 +739,7 @@
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/.*(ph|bimg|nosdn|ws)\\.(127|126)\\.net.*",
 			"exclude": "",
-			"group": "CingList",
+			"group": "CingList-Response",
 			"isFunction": false,
 			"action": {
 				"name": "access-control-allow-origin",
@@ -753,7 +753,7 @@
 			"matchType": "regexp",
 			"pattern": "bobo.okokbo.com",
 			"exclude": "",
-			"group": "CingList",
+			"group": "CingList-Response",
 			"isFunction": false,
 			"action": {
 				"name": "access-control-allow-origin",
@@ -767,7 +767,7 @@
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/.*\\.(m3u8|ts|mp3|mp4|flv)(?=\\?|$)",
 			"exclude": "",
-			"group": "CingList",
+			"group": "CingList-Response",
 			"isFunction": false,
 			"action": {
 				"name": "access-control-allow-origin",

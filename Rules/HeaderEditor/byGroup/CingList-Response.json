@@ -1,0 +1,49 @@
+{
+	"request": [],
+	"sendHeader": [],
+	"receiveHeader": [
+		{
+			"enable": true,
+			"name": "修复网易图片不显示问题",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*(ph|bimg|nosdn|ws)\\.(127|126)\\.net.*",
+			"exclude": "",
+			"group": "CingList-Response",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		},
+		{
+			"enable": true,
+			"name": "okokbo m3u8播放",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "bobo.okokbo.com",
+			"exclude": "",
+			"group": "CingList-Response",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "http://okzyzy.com/"
+			}
+		},
+		{
+			"enable": true,
+			"name": "允许 M3U8、TS、MP4 等文件跨域",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*\\.(m3u8|ts|mp3|mp4|flv)(?=\\?|$)",
+			"exclude": "",
+			"group": "CingList-Response",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		}
+	],
+	"receiveBody": []
+}
