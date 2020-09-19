@@ -1,0 +1,67 @@
+ 更改VPS的时区
+
+如果VPS默认是非中国时区的话，如下命令可以用来更改为中国时区：
+
+#cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+================================================================
+
+启动crontab服务
+
+必须要启动crontab服务器才能使定时任务生效，以下是各系统的启动方法，以及设置开机自启。
+
+Ubuntu 14 / Debian 7：
+service cron start
+chkconfig cron on
+
+Ubuntu 16+ / Debian 8+：
+systemctl start cron
+systemctl enable cron
+
+CentOS 6：
+service crond start
+chkconfig crond on
+
+CentOS 7+：
+systemctl start crond
+systemctl enable crond
+
+======================================================
+
+1、安装Crontab
+有些系统可能已经安装了Crontab，可以跳过此步骤，没有的就安装下。
+
+#CentOS
+yum install vixie-cron crontabs
+chkconfig crond on
+service crond start
+
+#Debian
+apt-get install cron
+/etc/init.d/cron restart
+
+这里根据我们服务器的环境，然后安装crontab，且启动。
+
+2、、编辑定时脚本
+
+crontab -e
+
+在ssh中执行脚本，然后编辑文件。
+
+#每天凌晨1点重启服务器
+0 1 * * * /sbin/reboot
+
+#每3小时重启服务器
+0 */3 * * * /sbin/reboot
+
+丢进去这个脚本。编辑完毕之后:wq保存退出。
+
+3、重启生效
+
+/etc/rc.d/init.d/crond stop
+/etc/rc.d/init.d/crond start
+
+================================
+查询Linux系统重启日志
+每次重启时间
+last -x reboot
