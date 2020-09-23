@@ -27,8 +27,6 @@ echo %date% 重启WiFi
 
 ::重启WiFi
 netsh wlan stop hostednetwork
-netsh wlan set hostednetwork mode=disallow
-netsh wlan set hostednetwork mode=allow
 netsh wlan start hostednetwork
 @echo.
 ::30分钟自动重启

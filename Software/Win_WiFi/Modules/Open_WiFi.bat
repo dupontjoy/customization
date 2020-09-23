@@ -4,5 +4,4 @@ MODE con: COLS=77 LINES=20
 
 :Open_WiFi
 cls
-netsh wlan set hostednetwork mode=allow
 netsh wlan start hostednetwork
