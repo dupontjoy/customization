@@ -28,8 +28,11 @@ echo %date% 重启WiFi
 ::重启WiFi
 netsh wlan stop hostednetwork
 netsh wlan start hostednetwork
+
+
 @echo.
 ::30分钟自动重启
 @echo off
 choice /t 1800 /d y /n >nul
+
 Goto Restart_WiFi
