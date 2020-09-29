@@ -1,4 +1,4 @@
-//2020.06.10
+//2020.09.29
 
 
 /*
@@ -10,6 +10,8 @@
 # Note:
 - OurSticky扩展导致百度网盘离线下载添加BT种子时窗口无法弹出
 - Don't Fuck with my Scrolling脚本会导致某些直播视频无法加载
+- Https only模式会导致ic后台站点无法切换
+- Beta版surfingkeys容易出问题
  *************************************************************************************/
 
 /******************************************************************************************
@@ -56,7 +58,22 @@ user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在�
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
 
+//*==========性能==========*//
+user_pref("gfx.webrender.all", true);//默认false
+
+
 //*==========网络相关==========*//
+
+//启用DOH
+user_pref("network.trr.resolvers", "[{\"name\":\"Cloudflare\",\"url\":\"https://mozilla.cloudflare-dns.com/dns-query\"},{\"name\":\"NextDNS\",\"url\":\"https://firefox.dns.nextdns.io/\"},{\"name\":\"GeekDNS\",\"url\":\"https://dns.233py.com/dns-query\"},{\"name\":\"IIJ DNS\",\"url\":\"https://public.dns.iij.jp/dns-query\"}]");//列表中加入
+user_pref("network.trr.mode", 2);//推荐模式2
+/*    0 - Default value in standard Firefox installations (currently is 5, which means DoH is disabled)
+    1 - DoH is enabled, but Firefox picks if it uses DoH or regular DNS based on which returns faster query responses
+    2 - DoH is enabled, and regular DNS works as a backup
+    3 - DoH is enabled, and regular DNS is disabled
+    5 - DoH is disabled
+A value of 2 works best.*/
+user_pref("network.trr.uri", "https://dns.233py.com/dns-query");//GeekDNS
 
 //缓存
 user_pref("browser.cache.disk.enable", false);//禁用硬盘缓存
@@ -111,7 +128,7 @@ user_pref("browser.sessionstore.interval", 3600000);//(单位: ms)限制recovery
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
 //标签页固定的网站(16个)
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.npr.org/\",\"title\":\"NPR\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.bilibili.com/\",\"title\":\"Bilibili\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"https://www.guancha.cn/\",\"title\":\"观察者网\"},{\"url\":\"http://www.cwzg.cn/\",\"title\":\"察网\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.techweb.com.cn/\",\"title\":\"techweb\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"https://36kr.com/\",\"title\":\"36Kr\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.npr.org/\",\"title\":\"NPR\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.bilibili.com/\",\"title\":\"Bilibili\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"https://dig.chouti.com/\",\"title\":\"抽屉\"},{\"url\":\"https://www.guancha.cn/\",\"title\":\"观察者网\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"https://www.ithome.com/\",\"title\":\"IT之家\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://36kr.com/\",\"title\":\"36Kr\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"}]");
 user_pref("browser.newtabpage.activity-stream.topSitesRows", 2);//常用网站2行展示
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);//不展示只言片语
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);//不展示集锦
