@@ -1,1 +1,2 @@
-addSearchAliasX('s', 'stackoverflow', 'https://www.startpage.com/do/dsearch?query=');
+removeSearchAliasX(alias, 'stackoverflow',);
+addSearchAliasX('s', 'startpage', 'https://www.startpage.com/do/dsearch?query=');
