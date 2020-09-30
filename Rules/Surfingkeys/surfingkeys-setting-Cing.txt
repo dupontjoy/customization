@@ -1,5 +1,8 @@
+//取消默认的s键stackoverflow搜索
 removeSearchAliasX('s', 'stackoverflow',);
+//将s键设置为startpage搜索
 addSearchAliasX('s', 'startpage', 'https://www.startpage.com/do/dsearch?query=');
+//添加os键startpage搜索框
 mapkey('os', '#8Open Search with alias s', function() {
     Front.openOmnibar({type: "SearchEngine", extra: "s"});
 });
