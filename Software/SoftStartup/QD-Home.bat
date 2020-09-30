@@ -3,7 +3,7 @@
 @echo off
 
 ::設置程序文件夾位置
-set dir=D:\Program Files
+set softdir=D:\Program Files
 
 ::家里用
 
