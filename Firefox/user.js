@@ -1,4 +1,4 @@
-//2020.09.29
+//2020.10.06
 
 
 /*
@@ -11,7 +11,7 @@
 - OurSticky扩展导致百度网盘离线下载添加BT种子时窗口无法弹出
 - Don't Fuck with my Scrolling脚本会导致某些直播视频无法加载
 - Https only模式会导致ic后台站点无法切换
-- Beta版surfingkeys容易出问题
+- Firefox Beta版surfingkeys容易出问题
  *************************************************************************************/
 
 /******************************************************************************************
@@ -58,14 +58,11 @@ user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在�
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
 
-//*==========性能==========*//
-user_pref("gfx.webrender.all", true);//默认false
-
 
 //*==========网络相关==========*//
 
 //启用DOH
-user_pref("network.trr.resolvers", "[{\"name\":\"Cloudflare\",\"url\":\"https://mozilla.cloudflare-dns.com/dns-query\"},{\"name\":\"NextDNS\",\"url\":\"https://firefox.dns.nextdns.io/\"},{\"name\":\"GeekDNS\",\"url\":\"https://dns.233py.com/dns-query\"},{\"name\":\"IIJ DNS\",\"url\":\"https://public.dns.iij.jp/dns-query\"}]");//列表中加入
+user_pref("network.trr.resolvers", "[{\"name\":\"Cloudflare\",\"url\":\"https://mozilla.cloudflare-dns.com/dns-query\"},{\"name\":\"NextDNS\",\"url\":\"https://firefox.dns.nextdns.io/\"},{\"name\":\"腾讯DNS\",\"url\":\"https://doh.pub/dns-query\"},{\"name\":\"GeekDNS\",\"url\":\"https://dns.233py.com/dns-query\"},{\"name\":\"DNS.SB\",\"url\":\"https://doh.dns.sb/dns-query\"},{\"name\":\"IIJ DNS\",\"url\":\"https://public.dns.iij.jp/dns-query\"}]");//列表中加入
 user_pref("network.trr.mode", 2);//推荐模式2
 /*    0 - Default value in standard Firefox installations (currently is 5, which means DoH is disabled)
     1 - DoH is enabled, but Firefox picks if it uses DoH or regular DNS based on which returns faster query responses
@@ -73,7 +70,7 @@ user_pref("network.trr.mode", 2);//推荐模式2
     3 - DoH is enabled, and regular DNS is disabled
     5 - DoH is disabled
 A value of 2 works best.*/
-user_pref("network.trr.uri", "https://dns.233py.com/dns-query");//GeekDNS
+user_pref("network.trr.uri", "https://dns.233py.com/dns-query");//正在用的DoH
 
 //缓存
 user_pref("browser.cache.disk.enable", false);//禁用硬盘缓存
