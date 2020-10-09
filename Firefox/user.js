@@ -1,4 +1,4 @@
-//2020.10.06
+//2020.10.09
 
 
 /*
@@ -62,7 +62,7 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 //*==========网络相关==========*//
 
 //启用DOH
-user_pref("network.trr.resolvers", "[{\"name\":\"Cloudflare\",\"url\":\"https://mozilla.cloudflare-dns.com/dns-query\"},{\"name\":\"NextDNS\",\"url\":\"https://firefox.dns.nextdns.io/\"},{\"name\":\"腾讯DNS\",\"url\":\"https://doh.pub/dns-query\"},{\"name\":\"GeekDNS\",\"url\":\"https://dns.233py.com/dns-query\"},{\"name\":\"DNS.SB\",\"url\":\"https://doh.dns.sb/dns-query\"},{\"name\":\"IIJ DNS\",\"url\":\"https://public.dns.iij.jp/dns-query\"},{\"name\":\"火绒ADblocks-DNS\",\"url\":\"https://dns.radium-cloud.tk\"}]");//列表中加入
+user_pref("network.trr.resolvers", "[{\"name\":\"Cloudflare\",\"url\":\"https://mozilla.cloudflare-dns.com/dns-query\"},{\"name\":\"NextDNS\",\"url\":\"https://firefox.dns.nextdns.io/\"},{\"name\":\"阿里DNS\",\"url\":\"https://dns.alidns.com/dns-query\"},{\"name\":\"腾讯DNS\",\"url\":\"https://doh.pub/dns-query\"},{\"name\":\"GeekDNS\",\"url\":\"https://dns.233py.com/dns-query\"},{\"name\":\"DNS.SB\",\"url\":\"https://doh.dns.sb/dns-query\"},{\"name\":\"IIJ DNS\",\"url\":\"https://public.dns.iij.jp/dns-query\"},{\"name\":\"AdGuard DNS\",\"url\":\"https://dns.adguard.com/dns-query\"}]");//列表中加入
 user_pref("network.trr.mode", 2);//推荐模式2
 /*    0 - Default value in standard Firefox installations (currently is 5, which means DoH is disabled)
     1 - DoH is enabled, but Firefox picks if it uses DoH or regular DNS based on which returns faster query responses
@@ -70,7 +70,7 @@ user_pref("network.trr.mode", 2);//推荐模式2
     3 - DoH is enabled, and regular DNS is disabled
     5 - DoH is disabled
 A value of 2 works best.*/
-user_pref("network.trr.uri", "https://dns.radium-cloud.tk");//正在用的DoH
+
 
 //缓存
 user_pref("browser.cache.disk.enable", false);//禁用硬盘缓存
