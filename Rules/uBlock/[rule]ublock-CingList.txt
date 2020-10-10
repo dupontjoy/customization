@@ -132,6 +132,11 @@ baidu.com##.module-canvas
 ||18h.mm-cg.com/adcg/*.gif$image
 18h.mm-cg.com##div[class*="ad_box"]
 
+！Hentaidude
+hentaidude.com##.msv-container > .block-notice
+hentaidude.com##div[class*="ad"]
+hentaidude.com###idtop
+
 ! Porn.com
 porn.com##.player-right
 
