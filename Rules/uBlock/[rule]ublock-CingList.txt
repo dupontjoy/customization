@@ -134,7 +134,6 @@ baidu.com##.module-canvas
 
 ！Hentaidude
 hentaidude.com##.msv-container > .block-notice
-hentaidude.com##div[class*="ad"]
 hentaidude.com###idtop
 
 ! Porn.com
