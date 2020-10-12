@@ -2,7 +2,7 @@
 //removeSearchAliasX('s', 'stackoverflow',);
 //将p键设置为startpage搜索
 addSearchAliasX('p', 'startpage', 'https://www.startpage.com/do/dsearch?query=');
-//添加os键startpage搜索框
-mapkey('op', '#8打开StartPage搜索栏', function() {
+//添加op键startpage搜索框
+mapkey('op', '#8打开Startpage搜索栏', function() {
     Front.openOmnibar({type: "SearchEngine", extra: "p"});
 });
