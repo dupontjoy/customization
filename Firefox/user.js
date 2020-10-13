@@ -62,8 +62,8 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 //*==========网络相关==========*//
 
 //启用DOH
-user_pref("network.trr.resolvers", "[{\"name\":\"Cloudflare\",\"url\":\"https://mozilla.cloudflare-dns.com/dns-query\"},{\"name\":\"NextDNS\",\"url\":\"https://firefox.dns.nextdns.io/\"},{\"name\":\"阿里DNS\",\"url\":\"https://dns.alidns.com/dns-query\"},{\"name\":\"腾讯DNS\",\"url\":\"https://doh.pub/dns-query\"},{\"name\":\"GeekDNS\",\"url\":\"https://dns.233py.com/dns-query\"},{\"name\":\"DNS.SB\",\"url\":\"https://doh.dns.sb/dns-query\"},{\"name\":\"IIJ DNS\",\"url\":\"https://public.dns.iij.jp/dns-query\"},{\"name\":\"AdGuard DNS\",\"url\":\"https://dns.adguard.com/dns-query\"}]");//列表中加入
-user_pref("network.trr.mode", 2);//推荐模式2
+user_pref("network.trr.resolvers", "[{\"name\":\"Cloudflare\",\"url\":\"https://mozilla.cloudflare-dns.com/dns-query\"},{\"name\":\"NextDNS\",\"url\":\"https://firefox.dns.nextdns.io/\"},{\"name\":\"GeekDNS\",\"url\":\"https://dns.233py.com/dns-query\"},{\"name\":\"DNS.SB\",\"url\":\"https://doh.dns.sb/dns-query\"},{\"name\":\"IIJ DNS\",\"url\":\"https://public.dns.iij.jp/dns-query\"},{\"name\":\"AdGuard DNS\",\"url\":\"https://dns.adguard.com/dns-query\"}]");//列表中加入
+user_pref("network.trr.mode", 0);//推荐模式2
 /*    0 - Default value in standard Firefox installations (currently is 5, which means DoH is disabled)
     1 - DoH is enabled, but Firefox picks if it uses DoH or regular DNS based on which returns faster query responses
     2 - DoH is enabled, and regular DNS works as a backup
