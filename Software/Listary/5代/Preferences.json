@@ -2,6 +2,13 @@
    "actions": {
       "base": [ "{44eca225-98f6-489c-b97a-03163e83ce7e}", "{b7e56ba3-2042-4ff7-a499-62d861e2aa69}", "{6ee550e1-8ef3-4025-a673-88d96a48bbc8}", "{81927428-1534-44c4-88aa-f119f682339d}", "{284ecbe8-1ef2-49c9-bd93-f7025519402b}", "{35c0504f-b1a8-4c82-8e32-aa1e68520972}", "{4025f3ed-47e1-4212-9276-de3fbb0786e8}", "{6d2b6aa4-67e5-4dd6-b7ea-c4b30ae8c9a5}", "{edf97959-2c24-47ed-bd7b-3dc5e76b7752}", "{170e8be1-80fa-4afb-a6d7-7bcb1a1eba19}", "{112b153c-23ec-463a-bcae-9eeba93802d8}", "{7971bb91-830f-474b-a976-8bfc9fc001d1}", "{06457068-a652-4c0d-9c3c-a4056dde1f67}", "{e5d9da93-b1dd-4401-8ba1-25f10fca9f93}", "{f56585dd-3f13-4305-8f00-e5599e3f20fe}" ],
       "items": [ {
+         "command_string": "_action_open",
+         "enabled": false,
+         "guid": "{112b153c-23ec-463a-bcae-9eeba93802d8}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
          "command_string": "_action_open_folder",
          "enabled": true,
          "guid": "{44eca225-98f6-489c-b97a-03163e83ce7e}",
@@ -65,24 +72,10 @@
          "keyword": "",
          "type": "builtin"
       }, {
-         "command_string": "_action_set_keyword",
-         "enabled": false,
-         "guid": "{6ee550e1-8ef3-4025-a673-88d96a48bbc8}",
-         "hotkey": 0,
-         "keyword": "",
-         "type": "builtin"
-      }, {
-         "command_string": "_action_open",
-         "enabled": false,
-         "guid": "{112b153c-23ec-463a-bcae-9eeba93802d8}",
-         "hotkey": 0,
-         "keyword": "",
-         "type": "builtin"
-      }, {
          "enabled": true,
          "guid": "{7971bb91-830f-474b-a976-8bfc9fc001d1}",
          "hotkey": 0,
-         "keyword": "",
+         "keyword": "N",
          "param": "\"{action_path}\"",
          "path": "C:\\Windows\\Notepad.exe",
          "run_as_admin": false,
@@ -90,7 +83,14 @@
          "title": "\u7528\u8BB0\u4E8B\u672C\u6253\u5F00",
          "type": "custom"
       }, {
+         "command_string": "_action_set_keyword",
          "enabled": false,
+         "guid": "{6ee550e1-8ef3-4025-a673-88d96a48bbc8}",
+         "hotkey": 0,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "enabled": true,
          "guid": "",
          "hotkey": 3332,
          "keyword": "",
@@ -154,7 +154,7 @@
    },
    "check_update": {
       "last_check_local_version": "5.00.2843",
-      "last_check_time": "13239445664430666",
+      "last_check_time": "13242367856846309",
       "version_setting": {
          "remind_later": "0",
          "skip": false,
@@ -451,15 +451,7 @@
       "regcode": "FP7832JRZS7TVFCHJXN8Z7S7MBZZSRBJDEX6PY3PL239QU53M2R9JHNK2XW4LY6D32CJ3BJDHK2L5APH3LFVFASHVLHFEXEHFX79M6NDNUJCMR8LRCLAN7MPSD6CAGTMCAHYH22CGT8T542RFPAGVY23W349QJV4C4G8XT2893SSUZV9E3CCPRGVY3A7FE3B"
    },
    "projects": {
-      "items": [ {
-         "keyword": "github",
-         "name": "GitHub",
-         "path": "D:\\My Documents\\GitHub"
-      }, {
-         "keyword": "189",
-         "name": "\u5929\u7FFC\u4E91\u76D8\u540C\u6B65\u76D8",
-         "path": "D:\\My Documents\\\u5929\u7FFC\u4E91\u76D8\u540C\u6B65\u76D8"
-      } ]
+
    },
    "search": {
       "custom_index": [ {

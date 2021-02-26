@@ -1,4 +1,4 @@
-::2019.10.24
+::2021.02.04
 
 @echo off
 
@@ -12,10 +12,10 @@
 ::設置程序文件夾位置
 set softdir=D:\Program Files
 
+
 ::普通啟動
 start "" "%softdir%\RimeIME Portable\weasel\WeaselServer.exe"
-start "" "%softdir%\Tencent\QQ\Bin\QQ.exe"
-start "" "%softdir%\Tencent\Foxmail\Foxmail.exe" /min
+start /min "" "%softdir%\Tencent\Foxmail\Foxmail.exe"
 start "" "%softdir%\CingFox\Software\Snipaste\Snipaste.exe"
 start "" "%softdir%\CingFox\Software\Ditto\Ditto.exe"
 
@@ -24,8 +24,8 @@ start "" "%softdir%\CingFox\Software\Ditto\Ditto.exe"
 ::删除日志临时文件
 del "%softdir%\System Tools\ProcessLassoPortable\prolasso.log.*"  /s /q
 ::启动程序
-start "" "%softdir%\System Tools\ProcessLassoPortable\ProcessGovernor.exe" "/configfolder=%softdir%\System Tools\ProcessLassoPortable\config" "/logfolder=%softdir%\System Tools\ProcessLassoPortable\config" /min
-start "" "%softdir%\System Tools\ProcessLassoPortable\ProcessLasso.exe" "/configfolder=%softdir%\System Tools\ProcessLassoPortable\config" "/logfolder=%softdir%\System Tools\ProcessLassoPortable\config" /min
+start /min "" "%softdir%\System Tools\ProcessLassoPortable\ProcessGovernor.exe" "/configfolder=%softdir%\System Tools\ProcessLassoPortable\config" "/logfolder=%softdir%\System Tools\ProcessLassoPortable\config"
+start /min "" "%softdir%\System Tools\ProcessLassoPortable\ProcessLasso.exe" "/configfolder=%softdir%\System Tools\ProcessLassoPortable\config" "/logfolder=%softdir%\System Tools\ProcessLassoPortable\config"
 
 
 
@@ -48,6 +48,7 @@ del "%softdir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
 ::启动程序
 start "" "%softdir%\CingFox\Software\Listary Pro\listary.exe"
 
+
 ::GFW
 ::start "" "%softdir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
 
@@ -56,7 +57,7 @@ start "" "%softdir%\CingFox\Software\Listary Pro\listary.exe"
 choice /t 3 /d y /n >nul
 
 ::延迟启动
-start "" "%softdir%\Tencent\WeiyunSync\WeiyunSync\Bin\weiyunsync.exe" /min
+start /min "" "%softdir%\Tencent\WeiyunSync\WeiyunSync\Bin\weiyunsync.exe"
 
 
 ::完成後退出

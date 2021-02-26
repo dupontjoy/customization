@@ -1,0 +1,25 @@
+{
+"policies": {
+"FlashPlugin": {
+"Allow": [
+"http://www.oktvmao.com",
+"https://www.oktvmao.com",
+"https://www.2animx.com",
+"http://www.duowan.com",
+"https://pan.baidu.com",
+"http://www.okzyw.com",
+"https://www.okzyw.com",
+"http://ic.sjlpj.cn",
+"http://cm.sjlpj.cn",
+"http://120.24.13.81:8082",
+"http://120.24.13.81:9704",
+"https://bbs.kafan.cn",
+"https://www.huya.com",
+"http://news.cctv.com",
+"http://v.cctv.com",
+"http://tv.cctv.com",
+"https://v.douyu.com"
+]
+}
+}
+}

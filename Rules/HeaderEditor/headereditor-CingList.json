@@ -86,7 +86,7 @@
 		},
 		{
 			"enable": true,
-			"name": "观察者网全文",
+			"name": "观察者网全文1",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^(https?:\\/\\/www\\.guancha\\.cn\\/.*\\_\\d+)\\.shtml$",
@@ -166,6 +166,18 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://gapis.geekzu.org/g-themes/$1",
+			"group": "CingList-Redirect"
+		},
+		{
+			"enable": true,
+			"name": "观察者网全文2",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^(https?:\\/\\/user\\.guancha\\.cn\\/.*\\.*id=\\d+).*$",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1&page=0",
 			"group": "CingList-Redirect"
 		}
 	],

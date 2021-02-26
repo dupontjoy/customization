@@ -1,1 +1,0 @@
-将distribution文件夹放到Firefox安装目录下

@@ -1,0 +1,90 @@
+[Adblock Plus 2.0]
+! Title:        cinglist-ubo
+! Description:  自用过滤规则。
+! Author:       Cing
+! License:      Creative Commons BY-NC-SA
+! Version:      2021
+! Expires:      1h
+!-------------------------------------------------------------------------------------!
+
+! NGA
+bbs.nga.cn##.hld__docker
+
+! 卡饭
+bbs.kafan.cn###autopbn
+bbs.kafan.cn###scrolltop
+bbs.kafan.cn##.bm_h
+bbs.kafan.cn##.ptn.xg2
+bbs.kafan.cn##.a_pt
+bbs.kafan.cn##.a_pb
+
+! cnbeta资讯
+cnbeta.com###cb_share
+cnbeta.com##.mask-box
+cnbeta.com##.mask-layer
+cnbeta.com###CbADsArticle > .adsbygoogle
+cnbeta.com##DIV[style="display:block !important;padding:10px;margin:0 auto;text-align:center;max-width:980px;overflow:hidden"]
+cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
+
+
+! CNN
+cnn.com##.user-msg
+
+
+! 经济学人
+economist.com##.newsletter-form--inline.newsletter-form
+economist.com##.timekeeper-bubble
+economist.com##.exit-pop
+economist.com##.ribbon__header
+economist.com##.ribbon__body
+economist.com###AdBillboard
+
+! HBR
+hbr.org##.backdrop-darker > .row
+
+! 京东
+jd.com##.side__ad.side__ad-left
+jd.com##.side__ad.side__ad-right
+jd.com##.activity-top
+
+! statista
+statista.com###statisticSlideIn
+statista.com###caRequestPopup
+statista.com##.modal-dialog--caRequest.modal-dialog
+
+! 天涯
+tianya.cn###js-bc-shang
+tianya.cn##.scroll-btn
+
+! 360
+yunpan.360.cn##.redpacket
+
+! 百度系
+
+! 2animx.com
+2animx.com###index_left
+2animx.com###index_right
+2animx.com##div[class*="footer"]
+
+! 18H
+18h.mm-cg.com##.UT_thread
+18h.mm-cg.com##UL
+||18h.mm-cg.com/adcg/*.gif$image
+18h.mm-cg.com##div[class*="ad_box"]
+jable.tv##.right-sidebar.col
+
+! dilili
+dililitv.com##.widget_ads.widget
+
+! 资源网
+okzyw.net,okzy.co,okzyw.com,okzy10.com,zuidazy.net,zuidazy1.com,zuidazy2.com,zuidazy3.com,zuidazy4.com,zuidazy5.com,1977zy.com,zuidazy.net##table
+okzyw.net,okzy.co,okzyw.com,okzy10.com,zuidazy.net,zuidazy1.com,zuidazy2.com,zuidazy3.com,zuidazy4.com,zuidazy5.com,1977zy.com,zuidazy.net##body > table
+okzyw.net,okzy.co,okzyw.com,okzy10.com,zuidazy.net,zuidazy1.com,zuidazy2.com,zuidazy3.com,zuidazy4.com,zuidazy5.com,1977zy.com,zuidazy.net##.right
+wolongzy.net##.notice
+wolongzy.net##[src="/img/shouliuliang.gif"]
+zxzj.me##div[class^="ADTOPLB_"]
+
+
+
+! 几鸡
+j01.best###pio

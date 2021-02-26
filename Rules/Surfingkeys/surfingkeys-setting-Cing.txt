@@ -1,8 +1,0 @@
-//取消默认的s键stackoverflow搜索
-//removeSearchAliasX('s', 'stackoverflow',);
-//将p键设置为startpage搜索
-addSearchAliasX('p', 'startpage', 'https://www.startpage.com/do/dsearch?query=');
-//添加op键startpage搜索框
-mapkey('op', '#8打开Startpage搜索栏', function() {
-    Front.openOmnibar({type: "SearchEngine", extra: "p"});
-});

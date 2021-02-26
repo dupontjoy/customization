@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.4.1b6",
-  "when": 1600226852124,
+  "when": 1609837541551,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -709,6 +709,7 @@
     "mozilla.org mozilla-community.org script allow",
     "mozilla.org mozilla.org cookie allow",
     "mtime.com mtime.cn * allow",
+    "mubu.com mubu.com cookie allow",
     "mvcat.com baidu.com * allow",
     "myprotein.cn thcdn.com * allow",
     "neilpatel.com netdna-ssl.com * allow",
