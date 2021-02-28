@@ -77,6 +77,7 @@ jable.tv##.right-sidebar.col
 dililitv.com##.widget_ads.widget
 
 ! 资源网
+okzyw.net,okzy.co,okzyw.com,okzy10.com,zuidazy.net,zuidazy1.com,zuidazy2.com,zuidazy3.com,zuidazy4.com,zuidazy5.com,1977zy.com,zuidazy.net###\31
 okzyw.net,okzy.co,okzyw.com,okzy10.com,zuidazy.net,zuidazy1.com,zuidazy2.com,zuidazy3.com,zuidazy4.com,zuidazy5.com,1977zy.com,zuidazy.net##table
 okzyw.net,okzy.co,okzyw.com,okzy10.com,zuidazy.net,zuidazy1.com,zuidazy2.com,zuidazy3.com,zuidazy4.com,zuidazy5.com,1977zy.com,zuidazy.net##body > table
 okzyw.net,okzy.co,okzyw.com,okzy10.com,zuidazy.net,zuidazy1.com,zuidazy2.com,zuidazy3.com,zuidazy4.com,zuidazy5.com,1977zy.com,zuidazy.net##.right
