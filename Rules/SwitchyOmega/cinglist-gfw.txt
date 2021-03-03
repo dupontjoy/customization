@@ -7,7 +7,7 @@
 !------------------------------------------------------------------!
 
 
-||htstreaming.com
+
 ||dota2.com.cn
 ||caixin.com
 ||atlassian.com
@@ -34,10 +34,8 @@
 ||stackoverflow.com
 ||bootstrapcdn.com
 ||ghacks.net
-||myhdjav.net
 ||bestpornbabes.com
 ||uupdump.ml
-||xvideos.com
 ||instagram.com
 ||amazonaws.com
 ||cdninstagram.com
@@ -69,7 +67,6 @@
 ||lefux.com
 ||geekbuying.com
 .dx.com
-||avbebe.com
 ||cosx.org
 ||hbr.org
 ||akamaized.net
@@ -92,10 +89,6 @@
 ||peterdavehello.org
 ||txxx.com
 ||keezmovies.com
-||*porn.com
-||pornhub.com
-||pornhub*.com
-||phncdn.com
 ||artstation.com
 ||raindrop.io
 ||ledlenserusa.com
@@ -150,7 +143,6 @@
 ||imgur.com
 ||indiatimes.com
 ||kameleoon.eu
-||mm-cg.com
 ||mobilefun.co*
 ||mobimania.ua
 ||nook.com
@@ -182,7 +174,6 @@
 ||zkcdn.net
 ||anki.com
 ||listary.com
-||hpjav.tv
 ||nautil.us
 ||bitwarden.com
 ||bitdefender.com
@@ -191,7 +182,19 @@
 ||gbtcdn.com
 ||books.google.com
 ||userstyles.org
+||imgscloud.com
 
+！
+||myhdjav.net
+||xvideos.com
+||avbebe.com
+||*porn.com
+||pornhub.com
+||pornhub*.com
+||phncdn.com
+||htstreaming.com
+||hpjav.tv
+||mm-cg.com
 
 ！微软
 ||msocdn.com
