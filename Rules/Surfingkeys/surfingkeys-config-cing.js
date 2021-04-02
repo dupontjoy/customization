@@ -133,9 +133,7 @@ var switchSearchConfigs=[
 	{commonUseMapKey:'v',mapkey:';xg',siteName:'西瓜',keywordRegex: getRegExp('www.ixigua.com/search','keyword'),searchUrl:'https://www.ixigua.com/search?keyword=%s'},
 	{commonUseMapKey:'s',mapkey:';sm',siteName:'神马',keywordRegex: getRegExp('so.m.sm.cn/s','q'),searchUrl:'https://so.m.sm.cn/s?q=%s'}, 
 //新增加的搜索引擎startpage
-	{commonUseMapKey:'s',mapkey:';ss',siteName:'Startpage',keywordRegex: getRegExp('www.startpage.com/sp/search','query'),searchUrl:'https://www.startpage.com/sp/search?query=%s'}, 
-//oktv搜索资源
-	{commonUseMapKey:'v',mapkey:';ok',siteName:'oktv猫',keywordRegex: getRegExp('www.oktvmao.com/index.php/vod/search.html','wd'),searchUrl:'http://www.oktvmao.com/index.php/vod/search.html?wd=%s'}
+	{commonUseMapKey:'s',mapkey:';ss',siteName:'Startpage',keywordRegex: getRegExp('www.startpage.com/sp/search','query'),searchUrl:'https://www.startpage.com/sp/search?query=%s'}
 ];
 
 function getRegExp(urlBeforeParam,searchParamKey){
