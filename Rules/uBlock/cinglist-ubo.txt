@@ -84,6 +84,17 @@ subo988.comhaozy.cc, okzyw.net,okzy.co,okzyw.com,okzy10.com,zuidazy.net,zuidazy1
 zxzj.me##div[class^="ADTOPLB_"]
 
 
+！大地资源
+dadizy11.com##center:nth-of-type(1)
+dadizy11.com##center:nth-of-type(2)
+dadizy11.com##p:nth-of-type(1)
+dadizy11.com##p:nth-of-type(2)
+dadizy11.com##p:nth-of-type(3)
+dadizy11.com##p:nth-of-type(6)
+
+！麻花资源
+www.mahuazy.net##table p
+
 
 ! 几鸡
 j01.best###pio
