@@ -1,26 +1,19 @@
 {
-  "timeStamp": 1609833324889,
-  "version": "1.32.5b3",
+  "timeStamp": 1617962173642,
+  "version": "1.34.1b3",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
-    "autoUpdate": true,
-    "cloudStorageEnabled": false,
-    "collapseBlocked": true,
-    "colorBlindFriendly": false,
     "contextMenuEnabled": false,
-    "dynamicFilteringEnabled": false,
-    "externalLists": "https://gitee.com/dupontjoy/customization/raw/master/Rules/uBlock/cinglist-ubo.txt\nhttps://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    "externalLists": "https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt\nhttps://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/cinglist-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "firewallPaneMinimized": false,
-    "hyperlinkAuditingDisabled": true,
-    "ignoreGenericCosmeticFilters": false,
-    "largeMediaSize": 50,
-    "parseAllABPHideFilters": true,
+    "importedLists": [
+      "https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt",
+      "https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt",
+      "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/cinglist-ubo.txt",
+      "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
+    ],
     "popupPanelSections": 63,
-    "prefetchingDisabled": true,
-    "requestLogMaxEntries": 1000,
-    "showIconBadge": true,
-    "tooltipsDisabled": false,
     "webrtcIPAddressHidden": true
   },
   "selectedFilterLists": [
@@ -32,22 +25,22 @@
     "ublock-unbreak",
     "adguard-generic",
     "easylist",
-    "easyprivacy",
     "CHN-0",
     "https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt",
-    "https://gitee.com/dupontjoy/customization/raw/master/Rules/uBlock/cinglist-ubo.txt",
-    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
+    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/cinglist-ubo.txt",
+    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    "https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt"
   ],
   "hiddenSettings": {
     "autoUpdatePeriod": 120,
     "blockingProfiles": "11111/#F00 11011/#C0F 11001/#00F 00001",
     "cloudStorageCompression": false,
-    "cnameUncloak": false,
     "filterAuthorMode": true
   },
   "whitelist": [
     "# edge-scheme",
     "# wyciwyg-scheme",
+    "14ysdg.com",
     "about-scheme",
     "chrome-extension-scheme",
     "chrome-scheme",
@@ -55,7 +48,6 @@
     "opera-scheme",
     "vivaldi-scheme"
   ],
-  "netWhitelist": "# edge-scheme\n# wyciwyg-scheme\nabout-scheme\nchrome-extension-scheme\nchrome-scheme\nmoz-extension-scheme\nopera-scheme\nvivaldi-scheme",
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-csp-reports: * true\nno-large-media: behind-the-scene false",
