@@ -1,4 +1,4 @@
-//2021.02.25
+//2021.04.12
 
 
 /*
@@ -92,6 +92,12 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//69以�
 user_pref("dom.webcomponents.shadowdom.enabled", true);//脚本"本地 YouTube 下载器"建议开启
 user_pref("extensions.pocket.enabled", false);//自带pocket(禁用,功能太简略,无法离线查看列表)
 user_pref("browser.sessionstore.interval", 3600000);//(单位: ms)限制recovery.js文件的写入操作: 默认15s, 改为1小时
+
+//实验性功能
+user_pref("layout.css.constructable-stylesheets.enabled", true);//CSS：可构造样式表
+user_pref("fission.autostart", true);//Fission：网站隔离
+user_pref("dom.webgpu.enabled", true);//Web API：WebGPU，利用GPU执行计算和图形渲染
+user_pref("privacy.webrtc.globalMuteToggles", true);//WebRTC 全局音视频输入开关
 
 
 
