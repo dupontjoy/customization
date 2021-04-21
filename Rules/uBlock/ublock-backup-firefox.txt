@@ -1,15 +1,14 @@
 {
-  "timeStamp": 1618366365589,
-  "version": "1.34.1b4",
+  "timeStamp": 1618995455495,
+  "version": "1.34.1rc2",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
     "contextMenuEnabled": false,
-    "externalLists": "https://gitee.com/dupontjoy/customization/raw/master/Rules/uBlock/cinglist-ubo.txt\nhttps://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    "externalLists": "https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/cinglist-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "firewallPaneMinimized": false,
     "importedLists": [
       "https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt",
-      "https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt",
       "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/cinglist-ubo.txt",
       "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
     ],
@@ -26,7 +25,6 @@
     "adguard-generic",
     "easylist",
     "CHN-0",
-    "https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt",
     "https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt",
     "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/cinglist-ubo.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
