@@ -1,4 +1,4 @@
-::2021.02.04
+::2021.04.28
 
 @echo off
 
@@ -59,6 +59,8 @@ choice /t 3 /d y /n >nul
 
 ::延迟启动
 start /min "" "%softdir%\Tencent\WeiyunSync\WeiyunSync\Bin\weiyunsync.exe"
+::再运行一次，偶尔启动有问题
+start "" "%softdir%\RimeIME Portable\weasel\WeaselServer.exe"
 
 
 ::完成後退出
