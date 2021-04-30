@@ -94,10 +94,12 @@ user_pref("extensions.pocket.enabled", false);//自带pocket(禁用,功能太简
 user_pref("browser.sessionstore.interval", 3600000);//(单位: ms)限制recovery.js文件的写入操作: 默认15s, 改为1小时
 
 //实验性功能
+user_pref("image.avif.enabled", true);//媒体：avif
 user_pref("layout.css.constructable-stylesheets.enabled", true);//CSS：可构造样式表
 user_pref("fission.autostart", true);//Fission：网站隔离
 user_pref("dom.webgpu.enabled", true);//Web API：WebGPU，利用GPU执行计算和图形渲染
 user_pref("privacy.webrtc.globalMuteToggles", true);//WebRTC 全局音视频输入开关
+
 
 
 
@@ -109,7 +111,7 @@ user_pref("privacy.webrtc.globalMuteToggles", true);//WebRTC 全局音视频输�
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
 //标签页固定的网站(16个)
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.npr.org/\",\"title\":\"NPR\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.bilibili.com/\",\"title\":\"Bilibili\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"https://the.top/\",\"title\":\"thetop\"},{\"url\":\"https://dig.chouti.com/\",\"title\":\"抽屉\"},{\"url\":\"https://www.guancha.cn/\",\"title\":\"观察者网\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"https://www.ithome.com/\",\"title\":\"IT之家\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://36kr.com/\",\"title\":\"36Kr\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://mubu.com/\",\"title\":\"幕布\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.bilibili.com/\",\"title\":\"Bilibili\"},{\"url\":\"https://tophub.today/\",\"title\":\"今日热榜\"},{\"url\":\"https://www.guancha.cn/\",\"title\":\"观察者网\"},{\"url\":\"https://dig.chouti.com/\",\"title\":\"抽屉\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"https://www.ithome.com/\",\"title\":\"IT之家\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnbeta\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://36kr.com/\",\"title\":\"36Kr\"},{\"url\":\"https://www.huxiu.com/\",\"title\":\"虎嗅\"},{\"url\":\"https://www.jiemian.com/\",\"title\":\"界面\"}]");
 user_pref("browser.newtabpage.activity-stream.topSitesRows", 2);//常用网站2行展示
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);//不展示只言片语
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);//不展示集锦
