@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.4.1b6",
-  "when": 1609837541551,
+  "when": 1620133581852,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -295,7 +295,7 @@
     "bestbuy.com demdex.net * allow",
     "bestjavporn.com javporn.best * allow",
     "bilibili.com bilibili.com cookie allow",
-    "bilibili.com data.bilibili.com * allow",
+    "bilibili.com bilivideo.cn * allow",
     "bilibili.com space.bilibili.com * allow",
     "bing.com bing.com cookie allow",
     "bioet.com.cn bioet.com.cn cookie allow",
