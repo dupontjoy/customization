@@ -94,6 +94,11 @@ dadizy11.com##p:nth-of-type(6)
 ！麻花资源
 www.mahuazy.net##table p
 
+！磁力熊
+www.cilixiong.com##.tabs-container > .col-md-12
+
 
 ! 几鸡
 j01.best###pio
+
+
