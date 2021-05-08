@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.4.1b6",
-  "when": 1620133581852,
+  "when": 1620478837276,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -74,6 +74,7 @@
     "* brightcove.com * allow",
     "* brightcove.net * allow",
     "* captcha.gtimg.com * allow",
+    "* captcha.qq.com * allow",
     "* cctv.com * allow",
     "* cctvpic.com * allow",
     "* cdn-apple.com * allow",
@@ -323,7 +324,6 @@
     "chaojibiaoge.com chaojibiaoge.com cookie allow",
     "chinavasion.com js.hscta.net script allow",
     "chongbuluo.com lianjierenwu.com * allow",
-    "chouti.com chouti.com cookie allow",
     "chsi.com.cn chei.com.cn * allow",
     "chsi.com.cn chsi.com.cn cookie allow",
     "ci-signal.com oraclecloud.com * allow",
@@ -1047,7 +1047,6 @@
     "zhaopin.com zhaopin.com cookie allow",
     "zhaoxin.com xiniu.com * allow",
     "zhenai.com zastatic.com script allow",
-    "zhihu.com static.zhihu.com * allow",
     "zhihu.com vzuu.com * allow",
     "zhihu.com z1.zhimg.com script allow",
     "zhihu.com zhihu-beyond.zhimg.com script allow",
