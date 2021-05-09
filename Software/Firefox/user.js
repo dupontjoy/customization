@@ -1,4 +1,4 @@
-//2021.04.12
+//2021.05.06
 
 
 /*
@@ -97,8 +97,10 @@ user_pref("browser.sessionstore.interval", 3600000);//(单位: ms)限制recovery
 user_pref("image.avif.enabled", true);//媒体：avif
 user_pref("layout.css.constructable-stylesheets.enabled", true);//CSS：可构造样式表
 user_pref("fission.autostart", true);//Fission：网站隔离
+user_pref("image.jxl.enabled", true);//Media: JPEG XL
 user_pref("dom.webgpu.enabled", true);//Web API：WebGPU，利用GPU执行计算和图形渲染
 user_pref("privacy.webrtc.globalMuteToggles", true);//WebRTC 全局音视频输入开关
+user_pref("security.sandbox.content.win32k-disable", true);//Win32K 锁定，增强安全性
 
 
 
