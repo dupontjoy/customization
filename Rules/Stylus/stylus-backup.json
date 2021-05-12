@@ -6,10 +6,10 @@
       "windowPosition": {},
       "show-badge": true,
       "disableAll": false,
-      "exposeIframes": true,
+      "exposeIframes": false,
       "newStyleAsUsercss": false,
       "styleViaXhr": false,
-      "patchCsp": true,
+      "patchCsp": false,
       "config.autosave": true,
       "popup.breadcrumbs": true,
       "popup.breadcrumbs.usePath": false,
@@ -83,9 +83,7 @@
   {
     "enabled": true,
     "updateUrl": null,
-    "md5Url": null,
     "url": null,
-    "originalMd5": null,
     "installDate": 1562816399555,
     "name": "微调——页面",
     "sections": [
@@ -104,7 +102,7 @@
     "updateDate": 1585310572168,
     "id": 1,
     "_id": "3a4b6748-484e-40e8-af14-1bc75591620d",
-    "_rev": 1585310572168
+    "_rev": 1620722976053
   },
   {
     "enabled": true,
@@ -141,12 +139,6 @@
         ]
       },
       {
-        "code": "/*天涯旁边广告*/\n\n\n[id=\"ty_msg_mod\"],\n[class=\"btnOpen\"],\n[class=\"ds_vip_seats\"],\n[class=\"TY_ui_window ui-draggable\"],\n[class=\"modDiv\"] {\n\t\tdisplay: none !important;\n\t}",
-        "domains": [
-          "tianya.cn"
-        ]
-      },
-      {
         "code": "/*HBR去除打开文章时的黑屏跳转*/\n\n\n\tbody {\n\t\toverflow: auto !important;\n\t}\n\n\t#intromercial-handle {\n\t\tdisplay: none !important;\n\t}",
         "domains": [
           "hbr.org"
@@ -165,9 +157,9 @@
         ]
       }
     ],
-    "updateDate": 1618976040571,
+    "updateDate": 1620805369158,
     "id": 3,
     "_id": "de7407fa-e964-4124-acf7-dd6497f391fc",
-    "_rev": 1618976078746
+    "_rev": 1620805369158
   }
 ]
