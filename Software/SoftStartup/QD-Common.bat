@@ -15,7 +15,7 @@ set softdir=D:\Program Files
 
 ::普通啟動
 start "" "%softdir%\RimeIME Portable\weasel\WeaselServer.exe"
-::start /min "" "%softdir%\Tencent\Foxmail\Foxmail.exe"
+start /min "" "%softdir%\Tencent\Foxmail\Foxmail.exe"
 start /min "" "%softdir%\Tencent\QQ\bin\QQ.exe"
 start "" "%softdir%\CingFox\Software\Snipaste\Snipaste.exe"
 start "" "%softdir%\CingFox\Software\Ditto\Ditto.exe"
