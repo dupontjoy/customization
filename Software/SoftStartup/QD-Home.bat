@@ -3,7 +3,7 @@
 @echo off
 
 ::設置程序文件夾位置
-set softdir=D:\Program Files
+set softdir=C:\Cing
 
 ::家里用
 
