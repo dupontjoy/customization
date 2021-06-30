@@ -1,4 +1,4 @@
-::2021.04.28
+::2021.06.30
 
 @echo off
 
@@ -11,6 +11,11 @@
 
 ::設置程序文件夾位置
 set softdir=C:\Cing
+
+
+::等待一段时间
+@echo off
+choice /t 10 /d y /n >nul
 
 
 ::普通啟動
