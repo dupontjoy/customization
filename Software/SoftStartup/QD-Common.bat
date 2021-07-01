@@ -11,6 +11,7 @@
 
 ::設置程序文件夾位置
 set softdir=C:\Cing
+set softdir2=D:\Cing's Soft\Microsoft
 
 
 ::等待一段时间
@@ -28,10 +29,10 @@ start "" "%softdir%\CingFox\Software\Ditto\Ditto.exe"
 
 ::Processlaso特殊处理
 ::删除日志临时文件
-del "%softdir%\System Tools\ProcessLassoPortable\prolasso.log.*"  /s /q
+del "%softdir2%\System Tools\ProcessLassoPortable\prolasso.log.*"  /s /q
 ::启动程序
-start /min "" "%softdir%\System Tools\ProcessLassoPortable\ProcessGovernor.exe" "/configfolder=%softdir%\System Tools\ProcessLassoPortable\config" "/logfolder=%softdir%\System Tools\ProcessLassoPortable\config"
-start /min "" "%softdir%\System Tools\ProcessLassoPortable\ProcessLasso.exe" "/configfolder=%softdir%\System Tools\ProcessLassoPortable\config" "/logfolder=%softdir%\System Tools\ProcessLassoPortable\config"
+start /min "" "%softdir2%\System Tools\ProcessLassoPortable\ProcessGovernor.exe" "/configfolder=%softdir2%\System Tools\ProcessLassoPortable\config" "/logfolder=%softdir2%\System Tools\ProcessLassoPortable\config"
+start /min "" "%softdir2%\System Tools\ProcessLassoPortable\ProcessLasso.exe" "/configfolder=%softdir2%\System Tools\ProcessLassoPortable\config" "/logfolder=%softdir2%\System Tools\ProcessLassoPortable\config"
 
 
 
@@ -54,9 +55,6 @@ del "%softdir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
 ::启动程序
 start "" "%softdir%\CingFox\Software\Listary Pro\listary.exe"
 
-
-::GFW
-::start "" "%softdir%\CingFox\Software\GFW\V2RayN\v2rayN.exe"
 
 ::等待一段时间
 @echo off
